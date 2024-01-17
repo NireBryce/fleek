@@ -25,7 +25,7 @@
     pkgs.bash-completion
     pkgs.bat
     pkgs.broot
-    pkgs.bashtop
+    pkgs.btop
     pkgs.direnv
     pkgs.bitwarden
     pkgs.cargo
