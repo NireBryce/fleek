@@ -80,6 +80,7 @@ paths:
     - $HOME/.cargo/bin
 programs:
     - dircolors
+shell: bash
 systems:
     - arch: x86_64
       home: ""
