@@ -19,7 +19,7 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - asdf-vm
-    - libgcc
+    - glfw
     - atuin
     - bash-completion
     - bat

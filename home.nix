@@ -21,7 +21,7 @@
   home.packages = [
     # user selected packages
     pkgs.asdf-vm
-    pkgs.libgcc
+    pkgs.glfw
     pkgs.atuin
     pkgs.bash-completion
     pkgs.bat
