@@ -20,16 +20,57 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.helix
+    pkgs.asdf-vm
+    pkgs.atuin
+    pkgs.bash-completion
+    pkgs.bat
+    pkgs.broot
+    pkgs.bashtop
+    pkgs.direnv
+    pkgs.bitwarden
+    pkgs.cargo
+    pkgs.cargo-update
+    pkgs.cargo-binstall
+    pkgs.cheat
+    pkgs.curl
+    pkgs.du-dust
+    pkgs.duf
+    pkgs.emacs
+    pkgs.emacsPackages.doom
+    pkgs.entr
+    pkgs.eza
+    pkgs.fd
+    pkgs.fzf
+    pkgs.gh
+    pkgs.ghc
+    pkgs.git
+    pkgs.haskell-language-server
+    pkgs.kitty
+    pkgs.lazydocker
+    pkgs.lazygit
+    pkgs.mc
+    pkgs.micro
+    pkgs.mlocate
+    pkgs.mosh
+    pkgs.nix-zsh-completions
+    pkgs.openssh
+    pkgs.python3
+    pkgs.ruby
+    pkgs.ruff
+    pkgs.ripgrep
+    pkgs.rustc
+    pkgs.topgrade
+    pkgs.tldr
+    pkgs.tree
+    pkgs.vscode
+    pkgs.wget
+    pkgs.xplr
+    pkgs.zellij
+    pkgs.zi
+    pkgs.zoxide
+    pkgs.tailscale
     # Fleek Bling
     pkgs.git
-    pkgs.htop
-    pkgs.github-cli
-    pkgs.glab
-    pkgs.fzf
-    pkgs.ripgrep
-    pkgs.vscode
-    pkgs.just
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 

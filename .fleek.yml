@@ -24,12 +24,9 @@ packages:
     - bash-completion
     - bat
     - broot
-    - btop
-    - docker
+    - bashtop
     - direnv
-    - diffutils
     - bitwarden
-    - cabal-install
     - cargo
     - cargo-update
     - cargo-binstall
@@ -70,8 +67,6 @@ packages:
     - zellij
     - zi
     - zoxide
-    - zsh
-    - zsh-completions
     - tailscale
 paths:
     - /usr/local
