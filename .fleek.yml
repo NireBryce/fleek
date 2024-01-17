@@ -24,7 +24,7 @@ packages:
     - bash-completion
     - bat
     - broot
-    - bashtop
+    - btop
     - direnv
     - bitwarden
     - cargo
