@@ -71,6 +71,7 @@
     pkgs.xclip
     pkgs.xsel
     pkgs.wl-clipboard
+    pkgs.kitty
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
