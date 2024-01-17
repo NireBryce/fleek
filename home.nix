@@ -45,7 +45,6 @@
     pkgs.ghc
     pkgs.git
     pkgs.haskell-language-server
-    pkgs.kitty
     pkgs.lazydocker
     pkgs.lazygit
     pkgs.mc

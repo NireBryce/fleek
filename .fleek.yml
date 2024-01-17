@@ -5,7 +5,7 @@ aliases:
 allow_broken: false
 auto_gc: true
 bling: none
-blocklist: [ ]
+blocklist: []
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
@@ -43,7 +43,6 @@ packages:
     - ghc
     - git
     - haskell-language-server
-    - kitty
     - lazydocker
     - lazygit
     - mc
