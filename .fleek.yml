@@ -87,22 +87,22 @@ systems:
       hostname: durandal
       os: linux
       user:
-          email: nire@computernope.net
-          name: Nire Bryce
-          ssh_private_key_file: ~/.ssh/id_ed25519
-          ssh_public_key_file: ~/.ssh/id_ed25519.pub
-          username: elly
+        email: nire@computernope.net
+        name: Nire Bryce
+        ssh_private_key_file: ~/.ssh/id_ed25519
+        ssh_public_key_file: ~/.ssh/id_ed25519.pub
+        username: elly
       username: elly
     - arch: x86_64
       home: ""
       hostname: nire-lysithea
       os: linux
       user:
-          email: nire@computernope.net
-          name: Nire Bryce
-          ssh_private_key_file: ~/.ssh/id_ed25519
-          ssh_public_key_file: ~/.ssh/id_ed25519.pub
-          username: elly
+        email: nire@computernope.net
+        name: Nire Bryce
+        ssh_private_key_file: ~/.ssh/id_ed25519
+        ssh_public_key_file: ~/.ssh/id_ed25519.pub
+        username: elly
       username: elly
 track: nixos-unstable
 unfree: true
