@@ -49,7 +49,6 @@
     pkgs.lazydocker
     pkgs.lazygit
     pkgs.mc
-    pkgs.micro
     pkgs.mlocate
     pkgs.mosh
     pkgs.nix-zsh-completions
@@ -73,7 +72,6 @@
     pkgs.xsel
     pkgs.wl-clipboard
     pkgs.kitty
-    pkgs.impermanence
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

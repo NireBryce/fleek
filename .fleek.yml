@@ -47,7 +47,6 @@ packages:
     - lazydocker
     - lazygit
     - mc
-    - micro
     - mlocate
     - mosh
     - nix-zsh-completions
@@ -71,11 +70,10 @@ packages:
     - xsel
     - wl-clipboard
     - kitty
-    - impermanence
 
 programs:
     - dircolors
-
+    - micro
 paths:
     - /usr/local
     - /usr/bin
