@@ -21,8 +21,16 @@
 			savehistory = false;
 			tabsize = 2;
 			tsbstospaces = true;
+			colorcolumn = 81;
+			indentchar = "·";
+			multiopen = "hsplit";
+			parsecursor = true;
+			linter: true;
+			comment: true;
 		};
 	};
+
+	
 	
  
 }
