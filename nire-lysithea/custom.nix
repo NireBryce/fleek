@@ -31,11 +31,20 @@
     };
   };
 
-  
+  programs.atuin.enableZshIntegration = true;
+  programs.dircolors.enableZshIntegration = true;
+  programs.direnv.enableZshIntegration = true;
+  programs.fzf.enableZshIntegration = true;
+  programs.zellij.enableZshIntegration = true;
+  programs.zoxide.enableZshIntegration = true;
   programs.zsh = {
     enable = true;
     dotDir = ".config/zsh";
-    shellAliases = {
+		autocd = false;
+		enableVteIntegration = true;
+		enableCompletion = true;
+		enableAutosuggetions = true;
+		shellAliases = {
       ll = "ls -l";
       update = "fleek apply";
     };
@@ -51,11 +60,11 @@
       enable = true;
       # package = "";
       highlighters = [
-        "brackets",
-        "pattern",
-        "regexp",
-        "cursor",
-        "root",
+        "brackets"
+        "pattern"
+        "regexp"
+        "cursor"
+        "root"
         "line"
       ];
       
@@ -83,7 +92,9 @@
 		initExtraBeforeCompInit = {
 
 		};
-		
+		completionInit = {
+			
+		};
   # .zlogout
 		logoutExtra = {
 
