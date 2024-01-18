@@ -71,6 +71,11 @@ packages:
     - xsel
     - wl-clipboard
     - kitty
+    - impermanence
+
+programs:
+    - dircolors
+
 paths:
     - /usr/local
     - /usr/bin
@@ -81,9 +86,6 @@ paths:
     - $HOME/.config/zi/bin
     - $HOME/.config/emacs/bin
     - $HOME/.cargo/bin
-programs:
-    - dircolors
-    - impermanence
 
 shell: bash
 systems:
