@@ -80,25 +80,25 @@
 		";
 
   # .zprofile
-		profileExtra = {
+		profileExtra = "
 
-		};
-		localVariables = {
+		";
+		localVariables = "
 
-		};
-		initExtraFirst = {
+		";
+		initExtraFirst = "
 
-		};
-		initExtraBeforeCompInit = {
+		";
+		initExtraBeforeCompInit = "
 
-		};
-		completionInit = {
+		";
+		completionInit = "
 			
-		};
+		";
   # .zlogout
-		logoutExtra = {
+		logoutExtra = "
 
-		};
+		";
 	
 		plugins = {
       
