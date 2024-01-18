@@ -71,13 +71,13 @@
 		};   
 
 	# .zshenv
-	  envExtra = {
+	  envExtra = "
     
-	  };
+	  ";
   # .zlogin
-		loginExtra = {
+		loginExtra = "
 
-		};
+		";
 
   # .zprofile
 		profileExtra = {
