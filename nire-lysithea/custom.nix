@@ -38,10 +38,8 @@
       update = "fleek apply";
     };
     histSize = 50000;
-    histFile = "${config.xdg.dataHome}/zsh/history";
+    histFile = "$HOME/.config/zsh/history";
     # zi https://github.com/wahtique/dotfiles/blob/main/dot_config/home-manager/home.nix.tmpl
 	};    
-
-
  
 }

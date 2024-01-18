@@ -78,6 +78,7 @@ packages:
 programs:
     - dircolors
     - micro
+    - zsh
 paths:
     - /usr/local
     - /usr/bin
