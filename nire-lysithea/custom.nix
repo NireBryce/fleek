@@ -83,9 +83,9 @@
 		profileExtra = "
 
 		";
-		localVariables = "
+		localVariables = {
 
-		";
+		};
 		initExtraFirst = "
 
 		";
