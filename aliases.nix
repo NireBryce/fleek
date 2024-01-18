@@ -9,6 +9,8 @@
     
     "fleeks" = "cd ~/.local/share/fleek";
     
+    "gitssh" = "export GIT_SSH=/usr/bin/ssh";
+    
     "latest-fleek-version" = "nix run https://getfleek.dev/latest.tar.gz -- version";
     
     "update-fleek" = "nix run https://getfleek.dev/latest.tar.gz -- update";
