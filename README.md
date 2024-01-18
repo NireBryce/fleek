@@ -19,6 +19,12 @@ $ apply-$(hostname)
 ```
 
 Your actual aliases are listed below:
+    fleek-custom = "micro ~/.local/share/fleek/nire-lysithea/custom.nix";
+
+    fleek-edit = "micro ~/.fleek.yml";
+
+    fleek-user = "micro ~/.local/share/fleek/user..nix";
+
     fleeks = "cd ~/.local/share/fleek";
 
     latest-fleek-version = "nix run https://getfleek.dev/latest.tar.gz -- version";
