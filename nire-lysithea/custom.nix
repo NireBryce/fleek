@@ -40,7 +40,7 @@
     histSize = 50000;
     histFile = "${config.xdg.dataHome}/zsh/history";
     # zi https://github.com/wahtique/dotfiles/blob/main/dot_config/home-manager/home.nix.tmpl
-    
+	};    
 
 
  
