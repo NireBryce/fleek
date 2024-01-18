@@ -25,8 +25,8 @@
 			indentchar = "·";
 			multiopen = "hsplit";
 			parsecursor = true;
-			linter: true;
-			comment: true;
+			linter = true;
+			comment = true;
 		};
 	};
 
