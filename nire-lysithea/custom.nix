@@ -43,7 +43,7 @@
 		autocd = false;
 		enableVteIntegration = true;
 		enableCompletion = true;
-		enableAutosuggetions = true;
+		enableAutosuggestions = true;
 		shellAliases = {
       ll = "ls -l";
       update = "fleek apply";
