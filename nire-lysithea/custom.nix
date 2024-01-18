@@ -18,7 +18,7 @@
 			ignorecase = false;
 			keyenu = true;
 			mkparents = true;
-			pluginchannels = "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json";
+			pluginchannels = https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json;
 			savehistory = false;
 			tabsize = 2;
 			tsbstospaces = true;
