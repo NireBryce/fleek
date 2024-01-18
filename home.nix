@@ -21,6 +21,7 @@
   home.packages = [
     # user selected packages
     pkgs.asdf-vm
+    pkgs.glfw
     pkgs.atuin
     pkgs.bash-completion
     pkgs.bat
@@ -45,7 +46,6 @@
     pkgs.ghc
     pkgs.git
     pkgs.haskell-language-server
-    pkgs.kitty
     pkgs.lazydocker
     pkgs.lazygit
     pkgs.mc
@@ -69,6 +69,10 @@
     pkgs.zi
     pkgs.zoxide
     pkgs.tailscale
+    pkgs.xclip
+    pkgs.xsel
+    pkgs.wl-clipboard
+    pkgs.kitty
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

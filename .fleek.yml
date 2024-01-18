@@ -83,6 +83,8 @@ paths:
     - $HOME/.cargo/bin
 programs:
     - dircolors
+    - impermanence
+
 shell: bash
 systems:
     - arch: x86_64
