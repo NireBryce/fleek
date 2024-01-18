@@ -27,19 +27,80 @@
       parsecursor = true;
       linter = true;
       comment = true;
+      tabstospaces = true;
     };
   };
 
   
   programs.zsh = {
     enable = true;
+    dotDir = ".config/zsh";
     shellAliases = {
       ll = "ls -l";
       update = "fleek apply";
     };
-    histSize = 50000;
-    histFile = "$HOME/.config/zsh/history";
-    # zi https://github.com/wahtique/dotfiles/blob/main/dot_config/home-manager/home.nix.tmpl
+    history = {
+			path = "$HOME/.config/zsh/history";
+			save = 50000;
+		};
+		zsh-abbr.enable = true;
+		zsh-abbr.abbreviations = {
+
+		};
+		syntaxHighlighting = {
+      enable = true;
+      # package = "";
+      highlighters = [
+        "brackets",
+        "pattern",
+        "regexp",
+        "cursor",
+        "root",
+        "line"
+      ];
+      
+		};   
+
+	# .zshenv
+	  envExtra = {
+    
+	  };
+  # .zlogin
+		loginExtra = {
+
+		};
+
+  # .zprofile
+		profileExtra = {
+
+		};
+		localVariables = {
+
+		};
+		initExtraFirst = {
+
+		};
+		initExtraBeforeCompInit = {
+
+		};
+		
+  # .zlogout
+		logoutExtra = {
+
+		};
+	
+		plugins = {
+      
+		};
+		
 	};    
  
 }
+
+
+
+
+
+
+
+
