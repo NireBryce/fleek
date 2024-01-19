@@ -100,6 +100,20 @@
 			_ZO_CMD_PREFIX="f";
 		};
 
+		plugins = [
+		# TODO: Symlink p10k configs
+		{
+			name = "powerlevel10k";
+			src = pkgs.zsh-powerlevel10k;
+			file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+		}
+		{
+			name = "powerlevel10k-config";
+			src = "$HOME/.config/zsh-powerlevel10k";
+			file = "p10k.zsh";
+		}
+		
+		];
 		initExtraFirst = ''
 			# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 			# Initialization code that may require console input (password prompts, [y/n]
@@ -473,9 +487,6 @@
 
 		'';
 	
-		plugins = [
-      
-		];
 		
 	};    
  
