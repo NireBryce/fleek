@@ -76,9 +76,9 @@
 		shellAliases = {
       ll = "ls -l";
       update = "fleek apply";
-	    alias cp="cp -i";                              # Confirm before overwriting something
-			alias cd="f";                                  # Empty oneletter for zoxide to not interfere with zi
-			alias fleeks='cd ~/.local/share/fleek'
+	    cp="cp -i";                              # Confirm before overwriting something
+			cd="f";                                  # Empty oneletter for zoxide to not interfere with zi
+			fleeks='cd ~/.local/share/fleek'
 		# Eza
 			exa="eza";
 			ls="eza --icons --header --group-directories-first";
