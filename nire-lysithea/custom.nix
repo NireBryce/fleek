@@ -431,7 +431,7 @@
 
 			# # Use caching to make completion for commands such as dpkg and apt usable.
 			#   zstyle ':completion::complete:*' use-cache on
-			#   zstyle ':completion::complete:*' cache-path "${XDG_CACHE_HOME:-$HOME/.cache}/prezto/zcompcache"
+			#   zstyle ':completion::complete:*' cache-path "${HOME/}.cachegi/prezto/zcompcache"
 
 				
 
