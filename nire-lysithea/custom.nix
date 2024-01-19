@@ -97,14 +97,8 @@
 
 		'';
 		localVariables = {
-			WORDCHARS= '*?[]~=&;!#$%^(){}<>';       # Don't consider certain characters part of the word
 			_ZO_CMD_PREFIX="f";
 		};
-
-
-
-
-
 
 		initExtraFirst = ''
 			# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -445,6 +439,7 @@
 				# completions from --help
 					source $HOME/.zi/plugins/RobSis---zsh-completion-generator/zsh-completion-generator.plugin.zsh 
 
+			WORDCHARS= '*?[]~=&;!#$%^(){}<>';       # Don't consider certain characters part of the word
 
 		'';
 		completionInit = ''
