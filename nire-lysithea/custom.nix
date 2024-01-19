@@ -124,8 +124,8 @@
 
 
 		# Zi bootstrap
-			if [[ -r "${HOME}/.config/zi/init.zsh" ]]; then
-				source "${HOME}/.config}/zi/init.zsh" && zzinit
+			if [[ -r "$HOME/.config/zi/init.zsh" ]]; then
+				source "$HOME/.config}/zi/init.zsh" && zzinit
 			fi
 		'';
 		initExtraBeforeCompInit = ''
