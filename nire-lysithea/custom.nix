@@ -97,9 +97,7 @@
 
 		'';
 		localVariables = {
-			WORDCHARS= ''
-			  ${WORDCHARS//\/[&.;]}
-			'';       # Don't consider certain characters part of the word
+			WORDCHARS= '*?[]~=&;!#$%^(){}<>';       # Don't consider certain characters part of the word
 			_ZO_CMD_PREFIX="f";
 		};
 
