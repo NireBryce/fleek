@@ -10,9 +10,6 @@
     PAGER="less -R";
     MANPAGER="bat --language man";
 		LC_CTYPE="en_US.UTF-8";
-		XDG_CACHE_HOME        = config.xdg.cacheHome;
-    XDG_CONFIG_HOME       = config.xdg.configHome;
-    XDG_DATA_HOME         = config.xdg.dataHome;
   };
   programs.micro = {
     enable = true;
