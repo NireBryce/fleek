@@ -78,7 +78,7 @@
       update = "fleek apply";
 	    cp = "cp -i";                              # Confirm before overwriting something
 			cd = "f";                                  # Empty oneletter for zoxide to not interfere with zi
-			fleeks = 'cd ~/.local/share/fleek';
+			fleeks = "cd ~/.local/share/fleek";
 			exa = "eza";
 			ls = "eza --icons --header --group-directories-first";
 
