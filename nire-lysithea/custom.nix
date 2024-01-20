@@ -108,7 +108,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = $HOME/new_dotfiles/elly;
+			src = lib.cleanSource (builtins.toPath "$HOME/new_dotfiles/elly";
 			file = "p10k.zsh";
 		}
 		
