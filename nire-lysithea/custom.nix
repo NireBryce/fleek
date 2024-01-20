@@ -102,7 +102,6 @@
 		};
 
 		plugins = [
-		TODO: Symlink p10k configs
 		{
 			name = "powerlevel10k";
 			src = pkgs.zsh-powerlevel10k;
