@@ -108,7 +108,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = ./new_dotfiles/elly;
+			src = $HOME/new_dotfiles/elly;
 			file = "p10k.zsh";
 		}
 		
