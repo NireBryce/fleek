@@ -108,7 +108,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = "$HOME/new_dotfiles";
+			src = "''$HOME/new_dotfiles";
 			file = "p10k.zsh";
 		}
 		
@@ -295,11 +295,6 @@
 		zstyle ':completion:*:*:mpg321:*' file-patterns '*.(mp3|MP3):mp3\ files *(-/):directories'
 		zstyle ':completion:*:*:ogg123:*' file-patterns '*.(ogg|OGG|flac):ogg\ files *(-/):directories'
 		zstyle ':completion:*:*:mocp:*' file-patterns '*.(wav|WAV|mp3|MP3|ogg|OGG|flac):ogg\ files *(-/):directories'
-	# Mutt
-	if [[ -s "$HOME/.mutt/aliases" ]]; then
-		zstyle ':completion:*:*:mutt:*' menu yes select
-		zstyle ':completion:*:mutt:*' users ''${''${''${(f)"''$(<"''$HOME/.mutt/aliases")"}#alias[[:space:]]}%%[[:space:]]*}
-	fi
 
 	# SSH/SCP/RSYNC
 		zstyle ':completion:*:(ssh|scp|rsync):*' tag-order 'hosts:-host:host hosts:-domain:domain hosts:-ipaddr:ip\ address *'
