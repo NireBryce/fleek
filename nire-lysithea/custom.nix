@@ -37,9 +37,6 @@
     };
   };
   
-  home.file."new_dotfiles/elly/.p10k.zsh" = {
-    source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.config/zsh-powerlevel10k/.p10k.zsh";
-  };
     
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
@@ -111,7 +108,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = "$HOME/.config/zsh-powerlevel10k";
+			src = "$HOME/new_dotfiles";
 			file = "p10k.zsh";
 		}
 		
