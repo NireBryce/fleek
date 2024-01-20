@@ -51,7 +51,7 @@
   programs.zoxide.enableZshIntegration = true;
   programs.zsh = {
     enable = true;
-    dotDir = config/zsh;
+    dotDir = "config/zsh";
 		autocd = false;
 		enableVteIntegration = true;
 		enableCompletion = true;
