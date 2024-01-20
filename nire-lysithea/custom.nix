@@ -37,7 +37,11 @@
       tabstospaces = true;
     };
   };
-  
+
+ config.xdg = {
+    enable = true;
+    configHome = ./config;
+  };
     
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
