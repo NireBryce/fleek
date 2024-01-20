@@ -446,7 +446,7 @@
 		zi light chrissicool/zsh-256color
 		zi light zpm-zsh/colorize                                               # color common commands
 
-  unset python
+  
 	# Wishlist
 		# empty
 
