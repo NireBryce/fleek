@@ -57,7 +57,7 @@ packages:
     - mosh
     - nix-zsh-completions
     - openssh
-    - python3
+    - python3minimal
     - ruby
     - ruff
     - ripgrep
