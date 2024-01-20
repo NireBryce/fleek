@@ -54,7 +54,7 @@
     pkgs.mosh
     pkgs.nix-zsh-completions
     pkgs.openssh
-    pkgs.python3minimal
+    pkgs.python3
     pkgs.ruby
     pkgs.ruff
     pkgs.ripgrep
