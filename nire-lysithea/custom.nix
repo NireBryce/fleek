@@ -120,30 +120,31 @@
 		
 		];
 		initExtraFirst = ''
-	# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-	# Initialization code that may require console input (password prompts, [y/n]
-	# confirmations, etc.) must go above this block; everything else may go below.
-	if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
-		source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
-	fi
-	
-	typeset -U path cdpath fpath manpath
+      	# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+      	# Initialization code that may require console input (password prompts, [y/n]
+      	# confirmations, etc.) must go above this block; everything else may go below.
+      	if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
+      		source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
+      	fi
+      	
+      	typeset -U path cdpath fpath manpath
 
-	for profile in ''${(z)NIX_PROFILES}; do
-		fpath+=(''$profile/share/zsh/site-functions ''$profile/share/zsh/''$ZSH_VERSION/functions ''$profile/share/zsh/vendor-completions)
-	done
+      	for profile in ''${(z)NIX_PROFILES}; do
+      		fpath+=(''$profile/share/zsh/site-functions ''$profile/share/zsh/''$ZSH_VERSION/functions ''$profile/share/zsh/vendor-completions)
+      	done
 
-# zi install
-	if [[ ! -d "''$HOME/.zi" ]]; then
-			sh -c "''$(curl -fsSL get.zshell.dev)" -- -a loader
-	fi
+      # zi install
+      	if [[ ! -d "''$HOME/.zi" ]]; then
+      			sh -c "''$(curl -fsSL get.zshell.dev)" -- -a loader
+      	fi
 
 
-# Zi bootstrap
-	if [[ -r "''${XDG_CONFIG_HOME:-''${HOME}/.config}/zi/init.zsh" ]]; then
-		source "''${XDG_CONFIG_HOME:-''${HOME}/.config}/zi/init.zsh" && zzinit
-	fi
-		'';
+      # Zi bootstrap
+      	if [[ -r "''${XDG_CONFIG_HOME:-''${HOME}/.config}/zi/init.zsh" ]]; then
+      		source "''${XDG_CONFIG_HOME:-''${HOME}/.config}/zi/init.zsh" && zzinit
+      	fi
+      	
+      '';
 		initExtraBeforeCompInit = ''
 ##############################################################################################################################
 # STOLEN FROM MANJARO DEFAULT CONFIG
