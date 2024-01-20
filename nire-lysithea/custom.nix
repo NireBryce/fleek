@@ -36,9 +36,9 @@
       tabstospaces = true;
     };
   };
-  {
-    home.file."new_dotfiles/elly/.p10k.zsh".source = config.lib.file.mkOutOfStoreSymlink "''$HOME/.config/zsh-powerlevel10k/.p10k.zsh";
-    
+  
+  home.file."new_dotfiles/elly/.p10k.zsh".source = config.lib.file.mkOutOfStoreSymlink "''$HOME/.config/zsh-powerlevel10k/.p10k.zsh";
+      
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
   programs.direnv.enableZshIntegration = true;
