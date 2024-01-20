@@ -20,10 +20,8 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.python3
     pkgs.gnumake
     pkgs.topgrade
-    pkgs.asdf-vm
     pkgs.glfw
     pkgs.atuin
     pkgs.bash-completion

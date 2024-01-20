@@ -22,10 +22,9 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - python3
     - gnumake
     - topgrade
-    - asdf-vm
+    # - asdf-vm
     - glfw
     - atuin
     - bash-completion
