@@ -36,7 +36,9 @@
       tabstospaces = true;
     };
   };
-
+  {
+    home.file."new_dotfiles/elly/.p10k.zsh".source = config.lib.file.mkOutOfStoreSymlink "''$HOME/.config/zsh-powerlevel10k/.p10k.zsh";
+    
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
   programs.direnv.enableZshIntegration = true;
@@ -100,17 +102,17 @@
 		};
 
 		plugins = [
-		# TODO: Symlink p10k configs
-		# {
-		# 	name = "powerlevel10k";
-		# 	src = pkgs.zsh-powerlevel10k;
-		# 	file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-		# }
-		# {
-		# 	name = "powerlevel10k-config";
-		# 	src = "$HOME/.config/zsh-powerlevel10k";
-		# 	file = "p10k.zsh";
-		# }
+		TODO: Symlink p10k configs
+		{
+			name = "powerlevel10k";
+			src = pkgs.zsh-powerlevel10k;
+			file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+		}
+		{
+			name = "powerlevel10k-config";
+			src = "$HOME/.config/zsh-powerlevel10k";
+			file = "p10k.zsh";
+		}
 		
 		];
 		initExtraFirst = ''
