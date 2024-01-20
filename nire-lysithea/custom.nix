@@ -10,7 +10,7 @@
     PAGER="less -R";
     MANPAGER="bat --language man";
 		LC_CTYPE="en_US.UTF-8";
-    MICRO_CONFIG_HOME="''$HOME/.local/share/fleek/nire-lysithea/config/micro";
+    MICRO_CONFIG_HOME=.config/micro;
   };
   programs.micro = {
     enable = true;
