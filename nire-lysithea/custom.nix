@@ -101,10 +101,6 @@
 		profileExtra = ''
 
 		'';
-		localVariables = {
-			_ZO_CMD_PREFIX="f";
-		};
-
 		plugins = [
 		{
 			name = "powerlevel10k";
@@ -116,6 +112,10 @@
 			src = config/zsh-powerlevel10k;
 			file = ".p10k.zsh";
 		}
+		localVariables = {
+			_ZO_CMD_PREFIX="f";
+		};
+
 		
 		
 		];
