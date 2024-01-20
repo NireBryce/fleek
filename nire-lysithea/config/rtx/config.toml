@@ -1,6 +1,0 @@
-# [tools]
-# python = {version="3.11", virtualenv=".venv"} 
-# python = {version="latest"} 
-
-# if you forget how to use it
-# https://dev.to/jdxcode/beginners-guide-to-rtx-ac4
