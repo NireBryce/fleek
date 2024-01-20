@@ -67,8 +67,8 @@
         "pattern"
         "regexp"
         "cursor"
-        "root"
-        "line"
+        # "root"
+        # "line"
       ];
       
 		};   

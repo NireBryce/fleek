@@ -22,6 +22,7 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
+    - make
     - topgrade
     - asdf-vm
     - glfw
