@@ -56,10 +56,10 @@
 		enableVteIntegration = true;
 		enableCompletion = true;
 		enableAutosuggestions = true;
-    history = {
-			path = "${config.xdg.configHome}/zsh/history";
-			save = 50000;
-		};
+#    history = {
+#			path = "${config.xdg.configHome}/zsh/history";
+#			save = 50000;
+#		};
 		zsh-abbr.enable = true;
 		zsh-abbr.abbreviations = {
 
