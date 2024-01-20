@@ -51,13 +51,13 @@
   programs.zoxide.enableZshIntegration = true;
   programs.zsh = {
     enable = true;
-    dotDir = ".config/zsh";
+    dotDir = "config/zsh";
 		autocd = false;
 		enableVteIntegration = true;
 		enableCompletion = true;
 		enableAutosuggestions = true;
     history = {
-			path = "$HOME/.config/zsh/history";
+			path = ./config/zsh/history;
 			save = 50000;
 		};
 		zsh-abbr.enable = true;
