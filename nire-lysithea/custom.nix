@@ -485,7 +485,7 @@
 		eval "$(atuin init zsh --disable-up-arrow)"
 		bindkey '^r' _atuin_search_widget
 	# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-		[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+		#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 	# enable hash (#) character for line-comments by turning off extended globbing
 		# unsetopt extended_glob
 		# setopt interactive_comments
