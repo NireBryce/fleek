@@ -10,12 +10,12 @@
     PAGER="less -R";
     MANPAGER="bat --language man";
 		LC_CTYPE="en_US.UTF-8";
-    MICRO_CONFIG_HOME=.config/micro;
   };
   programs.micro = {
     enable = true;
     settings = {
       autoclose = false;
+      backup = false;
       autosu = true;
       cursorline  = true;
       colorscheme = "dukeubuntu-tc";
@@ -41,7 +41,7 @@
     enable = true;
   };
 
-  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = ./zsh-powerlevel10k/.p10k.zsh;
+  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = ./.config/zsh-powerlevel10k/.p10k.zsh;
 
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
