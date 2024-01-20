@@ -38,7 +38,7 @@
     };
   };
 
- config.xdg = {
+ xdg = {
     enable = true;
     configHome = ./config;
   };
