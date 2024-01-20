@@ -161,8 +161,8 @@
 				bindkey -e
 				bindkey '^[[7~' beginning-of-line                               # Home key
 				bindkey '^[[H' beginning-of-line                                # Home key
-			if [[ "${terminfo[khome]}" != "" ]]; then
-				bindkey "${terminfo[khome]}" beginning-of-line                  # [Home] - Go to beginning of line
+			if [[ ''${terminfo[khome]} != "" ]]; then
+				bindkey ''${terminfo[khome]} beginning-of-line                  # [Home] - Go to beginning of line
 			fi
 				bindkey '^[[8~' end-of-line                                     # End key
 				bindkey '^[[F' end-of-line                                      # End key
