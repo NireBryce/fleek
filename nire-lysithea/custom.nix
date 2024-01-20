@@ -77,7 +77,7 @@
       
 		};   
 
-	dotDir=.config/zsh;
+	dotDir=".config/zsh";
 		shellAliases = {
       ll = "ls -l";
       update = "fleek apply";
