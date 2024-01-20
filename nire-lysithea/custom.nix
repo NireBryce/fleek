@@ -51,7 +51,6 @@
   programs.zoxide.enableZshIntegration = true;
   programs.zsh = {
     enable = true;
-    dotDir = "config/zsh";
 		autocd = false;
 		enableVteIntegration = true;
 		enableCompletion = true;
@@ -113,7 +112,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = .config/zsh-powerlevel10k;
+			src = config/zsh-powerlevel10k;
 			file = ".p10k.zsh";
 		}
 		
