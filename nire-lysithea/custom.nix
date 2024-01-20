@@ -108,7 +108,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = "''$HOME/new_dotfiles";
+			src = "$HOME/new_dotfiles/";
 			file = "p10k.zsh";
 		}
 		
