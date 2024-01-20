@@ -10,6 +10,7 @@
     PAGER="less -R";
     MANPAGER="bat --language man";
 		LC_CTYPE="en_US.UTF-8";
+    MICRO_CONFIG_HOME="''${HOME}/.local/share/fleek/nire-lysithea/config/micro";
   };
   programs.micro = {
     enable = true;
@@ -66,7 +67,7 @@
         "brackets"
         "pattern"
         "regexp"
-        "cursor"
+        # "cursor"
         # "root"
         # "line"
       ];
@@ -111,6 +112,7 @@
 			src = ./config/zsh-powerlevel10k;
 			file = "p10k.zsh";
 		}
+		
 		
 		];
 		initExtraFirst = ''
