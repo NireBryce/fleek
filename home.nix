@@ -20,6 +20,7 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
+    pkgs.topgrade
     pkgs.asdf-vm
     pkgs.glfw
     pkgs.atuin
