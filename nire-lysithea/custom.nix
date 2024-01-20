@@ -41,7 +41,7 @@
     enable = true;
   };
 
-  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = ./.p10k.zsh;
+  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = ./zsh-powerlevel10k/.p10k.zsh;
 
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
