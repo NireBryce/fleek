@@ -41,7 +41,7 @@
     enable = true;
   };
 
-  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = ./.config/zsh-powerlevel10k/.p10k.zsh;
+  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = ./config/zsh-powerlevel10k/.p10k.zsh;
 
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
@@ -51,7 +51,7 @@
   programs.zoxide.enableZshIntegration = true;
   programs.zsh = {
     enable = true;
-    dotDir = "config/zsh";
+    dotDir = ".config/zsh";
 		autocd = false;
 		enableVteIntegration = true;
 		enableCompletion = true;
