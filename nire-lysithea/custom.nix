@@ -102,23 +102,23 @@
 
 		'';
 		plugins = [
-		{
-			name = "powerlevel10k";
-			src = pkgs.zsh-powerlevel10k;
-			file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-		}
-		{
-			name = "powerlevel10k-config";
-			src = config/zsh-powerlevel10k;
-			file = ".p10k.zsh";
-		}
+  	{
+  		name = "powerlevel10k";
+  		src = pkgs.zsh-powerlevel10k;
+  		file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+  	}
+  	{
+  		name = "powerlevel10k-config";
+  		src = config/zsh-powerlevel10k;
+  		file = ".p10k.zsh";
+	  	}
+		];
 		localVariables = {
 			_ZO_CMD_PREFIX="f";
 		};
 
 		
 		
-		];
 		initExtraFirst = ''
       	# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
       	# Initialization code that may require console input (password prompts, [y/n]
