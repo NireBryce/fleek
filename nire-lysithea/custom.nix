@@ -77,6 +77,7 @@
       
 		};   
 
+	dotDir=.config/zsh;
 		shellAliases = {
       ll = "ls -l";
       update = "fleek apply";
@@ -112,7 +113,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = .config/zsh-powerlevel10k;
+			src = config/zsh-powerlevel10k;
 			file = ".p10k.zsh";
 		}
 		
