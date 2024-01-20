@@ -108,7 +108,7 @@
 		}
 		{
 			name = "powerlevel10k-config";
-			src = lib.cleanSource (builtins.toPath "./config/zsh-powerlevel10k");
+			src = ./config/zsh-powerlevel10k;
 			file = "p10k.zsh";
 		}
 		
