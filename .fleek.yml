@@ -1,9 +1,9 @@
 aliases:
-    fleeks: cd ~/.local/share/fleek
-    fleek-edit: micro ~/.fleek.yml
     fleek-custom: micro ~/.local/share/fleek/nire-lysithea/custom.nix
+    fleek-edit: micro ~/.fleek.yml
     fleek-user: micro ~/.local/share/fleek/user..nix
-    gitssh: "export GIT_SSH=/usr/bin/ssh"
+    fleeks: cd ~/.local/share/fleek
+    gitssh: export GIT_SSH=/usr/bin/ssh
     latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
     update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
 allow_broken: false
@@ -24,7 +24,6 @@ overlays: {}
 packages:
     - gnumake
     - topgrade
-    # - asdf-vm
     - glfw
     - atuin
     - bash-completion
@@ -75,12 +74,6 @@ packages:
     - xclip
     - xsel
     - wl-clipboard
-    - kitty
-
-programs:
-    - dircolors
-    - micro
-    - zsh
 paths:
     - /usr/local
     - /usr/bin
@@ -92,7 +85,10 @@ paths:
     - $HOME/.config/zi/bin
     - $HOME/.config/emacs/bin
     - $HOME/.cargo/bin
-
+programs:
+    - dircolors
+    - micro
+    - zsh
 shell: zsh
 systems:
     - arch: x86_64
