@@ -20,7 +20,7 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.make
+    pkgs.gnumake
     pkgs.topgrade
     pkgs.asdf-vm
     pkgs.glfw
