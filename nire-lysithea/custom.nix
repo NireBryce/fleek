@@ -57,7 +57,7 @@
 		enableCompletion = true;
 		enableAutosuggestions = true;
     history = {
-			path = ./config/zsh/history;
+			path = "./config/zsh/history";
 			save = 50000;
 		};
 		zsh-abbr.enable = true;
