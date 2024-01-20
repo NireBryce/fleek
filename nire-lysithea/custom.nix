@@ -120,7 +120,6 @@
 		
 		
 		initExtraFirst = ''
-      unset python
       	# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
       	# Initialization code that may require console input (password prompts, [y/n]
       	# confirmations, etc.) must go above this block; everything else may go below.
@@ -446,6 +445,7 @@
 		zi light chrissicool/zsh-256color
 		zi light zpm-zsh/colorize                                               # color common commands
 
+unset python
   
 	# Wishlist
 		# empty
