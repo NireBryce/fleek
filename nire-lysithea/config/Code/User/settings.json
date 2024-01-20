@@ -1,0 +1,260 @@
+{
+  "[sh]": {
+    "editor.tabSize": 2
+  },
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "doom-one",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#282C34",
+    "notebook.outputContainerBackgroundColor": "#a57b5aa5",
+    "terminal.foreground": "#ABB2BF",
+    "terminalCursor.background": "#ABB2BF",
+    "terminalCursor.foreground": "#ABB2BF",
+    "terminal.ansiBlack": "#282C34",
+    "terminal.ansiBlue": "#61AFEF",
+    "terminal.ansiBrightBlack": "#545862",
+    "terminal.ansiBrightBlue": "#61AFEF",
+    "terminal.ansiBrightCyan": "#56B6C2",
+    "terminal.ansiBrightGreen": "#98C379",
+    "terminal.ansiBrightMagenta": "#C678DD",
+    "terminal.ansiBrightRed": "#E06C75",
+    "terminal.ansiBrightWhite": "#C8CCD4",
+    "terminal.ansiBrightYellow": "#E5C07B",
+    "terminal.ansiCyan": "#56B6C2",
+    "terminal.ansiGreen": "#98C379",
+    "terminal.ansiMagenta": "#C678DD",
+    "terminal.ansiRed": "#E06C75",
+    "terminal.ansiWhite": "#ABB2BF",
+    "terminal.ansiYellow": "#E5C07B",
+    "gitlens.trailingLineForegroundColor": "#000000",
+    "gitlens.trailingLineBackgroundColor": "#8a4482"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Pylance",
+  "terminal.integrated.fontFamily": "'JetBrainsMono NF', PowerlineSymbols, Consolas, monospace",
+  "editor.fontSize": 13,
+  "cornflakes.linter.run": "onType",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrainsMono NF', Consolas, monospace",
+  "sync.gist": "1f47bf4f3a26488fb40d541fe4b3a6f4",
+  "cSpell.userWords": [
+    "Auraxium",
+    "dataframe",
+    "datestamp",
+    "elly",
+    "horiz",
+    "infile",
+    "lable",
+    "matplotlib",
+    "nbdev",
+    "planetside",
+    "plotly",
+    "pyplot",
+    "scipy",
+    "suptitle",
+    "tweepy"
+  ],
+  "cSpell.ignoreWords": [
+    "curr",
+    "swdepths"
+  ],
+  "terminal.integrated.lineHeight": 0,
+  "terminal.integrated.fontSize": 12,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#61616161"
+    },
+    {
+      "column": 120,
+      "color": "#bf00ff76"
+    }
+  ],
+  "notebook.lineNumbers": "on",
+  "python.linting.enabled": false,
+  "debug.inlineValues": "on",
+  "debug.console.fontSize": 12,
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "terminal.integrated.commandsToSkipShell": [
+    "-workbench.action.terminal.find",
+    "-workbench.action.terminal.focusFind"
+  ],
+  "preview.preview.fontSize": 12,
+  "markdown.preview.fontSize": 12,
+  "python.linting.lintOnSave": false,
+  "editor.autoClosingQuotes": "never",
+  "editor.autoClosingBrackets": "never",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.stickyTabStops": true,
+  "editor.renderWhitespace": "all",
+  "gitlens.codeLens.scopes": [
+    "document",
+    "containers",
+    "blocks"
+  ],
+  "gitlens.fileAnnotations.command": "changes",
+  "gitlens.views.fileHistory.files.layout": "tree",
+  "explicitFolding.autoFold": "comments",
+  "[python]": {
+    "explicitFolding.rules": [
+      {
+        "beginRegex": "\"\"\"",
+        "endRegex": "\"\"\"",
+        "autoFold": true
+      }
+    ],
+    "explicitFolding.autoFold": "none",
+    "editor.formatOnType": true
+  },
+  "markdownShiki.theme": "dark_vs",
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.tabCompletion": "on",
+  "sourcery.token": "user_SxdTVO_z2pU09IxGOG7TGnc_jZ61NDKrQCNC4Hr3YnnweIur__Z88TIge_s",
+  "markdown-everywhere.preview-mode": "fenced",
+  "cSpell.diagnosticLevel": "Hint",
+  "cornflakes.linter.executablePath": "/home/elly/.pyenv/shims/flake8",
+  "output.smartScroll.enabled": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "cmd",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "editor.autoClosingOvertype": "never",
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "gitdoc.autoCommitDelay": 600000,
+  "gitdoc.autoPullDelay": 600000,
+  "gitdoc.autoPushDelay": 600000,
+  "gitdoc.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "bracketLens.minBracketScopeLines": 3,
+  "bracketLens.mode": "auto",
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#C678DD",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF7C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    // {
+    //     "tag": "#@",
+    //     "color": "#C800FF",
+    //     "strikethrough": false,
+    //     "underline": false,
+    //     "backgroundColor": "transparent",
+    //     "bold": false,
+    //     "italic": false
+    // },
+  ],
+  "sync.forceUpload": true,
+  "sync.autoUpload": true,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info",
+    "hint"
+  ],
+  "errorLens.gutterIconsEnabled": true,
+  "cSpell.enableFiletypes": [
+    "!python"
+  ],
+  "editor.hover.above": false,
+  "bookmarks.showCommandsInContextMenu": false,
+  "cSpell.showCommandsInEditorContextMenu": false,
+  "gitlens.gitCommands.search.showResultsInSideBar": false,
+  "autoDocstring.generateDocstringOnEnter": true,
+  "autoDocstring.includeExtendedSummary": true,
+  "autoDocstring.includeName": true,
+  "window.commandCenter": true,
+  "workbench.experimental.settingsProfiles.enabled": true,
+  "editor.emptySelectionClipboard": false,
+  "editor.definitionLinkOpensInPeek": true,
+  "git.ignoredRepositories": [
+    "/home/elly/.vscode/extensions/stepsize.stepsize-1.0.15/resources/demo-repository"
+  ],
+  "vspacecode.bindingOverrides": [],
+  "git.autofetch": true,
+  "editor.minimap.autohide": true,
+  "editor.minimap.size": "fill",
+  "debug.autoExpandLazyVariables": true,
+  "window.customMenuBarAltFocus": false,
+  "lightrun.certificatePinningList": [
+    "515a630cfd1fb908e30087bcc20b7413ad146b9bf2b23d3aaa72c28e45b24fb2",
+    "ee80811b38e7e6c2dc4cc372cbea86bd86b446b012e427f2e19bf094afba5d12"
+  ],
+  "lightrun.serverURL": "https://app.lightrun.com",
+  "lightrun.sendSourceFullPath": true,
+  "DockerRun.DisableAutoGenerateConfig": true,
+  "trunk.trunkGrayOutNonBlockingIssues": false,
+  "files.exclude": {
+    "**/.trunk/*out": true
+  },
+  "files.watcherExclude": {
+    "**/.trunk/*out": true
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "python.defaultInterpreterPath": "/home/elly/.pyenv/versions/3.11.3/envs/anti-trans",
+  "errorLens.lintFilePaths": {
+    "eslint": [
+      "**/*.eslintrc.{js,cjs,yaml,yml,json}",
+      "**/*package.json"
+    ],
+    "Stylelint": [
+      "**/*.stylelintrc",
+      "**/*.stylelintrc.{cjs,js,json,yaml,yml}",
+      "**/*stylelint.config.{cjs,js}",
+      "**/*package.json"
+    ]
+  },
+  "workbench.startupEditor": "welcomePage",
+  "vscode-sonic-pi.sonicPiRootDirectory": "/usr/bin/sonic-pi"
+}

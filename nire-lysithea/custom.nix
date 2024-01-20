@@ -37,12 +37,12 @@
       tabstospaces = true;
     };
   };
-
  xdg = {
     enable = true;
-    configHome = ./config;
   };
-    
+
+  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = ./.p10k.zsh;
+
   programs.atuin.enableZshIntegration = true;
   programs.dircolors.enableZshIntegration = true;
   programs.direnv.enableZshIntegration = true;
@@ -57,7 +57,7 @@
 		enableCompletion = true;
 		enableAutosuggestions = true;
     history = {
-			path = "./config/zsh/history";
+			path = "${config.xdg.configHome}/zsh/history";
 			save = 50000;
 		};
 		zsh-abbr.enable = true;
