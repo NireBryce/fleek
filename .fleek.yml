@@ -75,6 +75,7 @@ packages:
     - xsel
     - wl-clipboard
     - kitty
+    - kde-connect
 paths:
     - /usr/local
     - /usr/bin
