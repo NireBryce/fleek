@@ -74,6 +74,7 @@ packages:
     - xclip
     - xsel
     - wl-clipboard
+    - kitty
 paths:
     - /usr/local
     - /usr/bin
