@@ -1,0 +1,25 @@
+import QtQuick 2.6
+
+Item {
+    property string name: "3-stack bias top"
+    property var windows: [
+        { // top half
+            row: 0,
+            rowSpan: 12,  // "columns wide"
+            column: 0,
+            columnSpan: 6 // "rows high"
+        },
+        { // middle
+            row: 6,
+            rowSpan: 12,  // "columns wide"
+            column: 0,
+            columnSpan: 3 // "rows high"
+        },
+        { // bottom
+            row: 9,
+            rowSpan: 12,  // "columns wide"
+            column: 0,
+            columnSpan: 3 // "rows high"
+        }
+    ]
+}
