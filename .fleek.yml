@@ -75,6 +75,7 @@ packages:
     - wl-clipboard
     - kitty
     - magic-wormhole
+    - github-desktop
 paths:
     - /usr/local
     - /usr/bin
