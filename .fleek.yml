@@ -74,6 +74,7 @@ packages:
     - xsel
     - wl-clipboard
     - kitty
+    - magic-wormhole
 paths:
     - /usr/local
     - /usr/bin
