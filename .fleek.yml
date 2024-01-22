@@ -3,7 +3,6 @@ aliases:
     fleek-edit: micro ~/.fleek.yml
     fleek-user: micro ~/.local/share/fleek/user..nix
     fleeks: cd ~/.local/share/fleek
-    gitssh: export GIT_SSH=/usr/bin/ssh
     latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
     update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
 allow_broken: false
