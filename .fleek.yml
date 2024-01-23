@@ -76,6 +76,7 @@ packages:
     - kitty
     - magic-wormhole
     - github-desktop
+    - syncthing
 paths:
     - /usr/local
     - /usr/bin
