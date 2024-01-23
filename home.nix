@@ -75,7 +75,6 @@
     pkgs.kitty
     pkgs.magic-wormhole
     pkgs.github-desktop
-    pkgs.syncthing
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
