@@ -37,7 +37,7 @@ packages:
     - cheat
     - curl
     - du-dust
-    - duf
+    - dufq
     - emacs
     - emacsPackages.doom
     - entr
@@ -77,6 +77,8 @@ packages:
     - magic-wormhole
     - github-desktop
     - syncthing
+    - rnix-lsp
+    - nixfmt
 paths:
     - /usr/local
     - /usr/bin

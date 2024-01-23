@@ -36,7 +36,7 @@
     pkgs.cheat
     pkgs.curl
     pkgs.du-dust
-    pkgs.duf
+    pkgs.dufq
     pkgs.emacs
     pkgs.emacsPackages.doom
     pkgs.entr
@@ -76,6 +76,8 @@
     pkgs.magic-wormhole
     pkgs.github-desktop
     pkgs.syncthing
+    pkgs.rnix-lsp
+    pkgs.nixfmt
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
