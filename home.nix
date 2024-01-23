@@ -36,7 +36,7 @@
     pkgs.cheat
     pkgs.curl
     pkgs.du-dust
-    pkgs.dufq
+    pkgs.duf
     pkgs.emacs
     pkgs.emacsPackages.doom
     pkgs.entr

@@ -37,7 +37,7 @@ packages:
     - cheat
     - curl
     - du-dust
-    - dufq
+    - duf
     - emacs
     - emacsPackages.doom
     - entr
