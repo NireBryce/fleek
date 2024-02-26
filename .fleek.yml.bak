@@ -1,0 +1,225 @@
+aliases:
+    fleek-custom: micro ~/.local/share/fleek/nire-lysithea/custom.nix
+    fleek-edit: micro ~/.fleek.yml
+    fleek-user: micro ~/.local/share/fleek/user..nix
+    fleeks: cd ~/.local/share/fleek
+    latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
+    update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
+allow_broken: false
+auto_gc: true
+bling: none
+blocklist: []
+byo_git: false
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
+min_version: 0.8.4
+name: Fleek Configuration
+overlays: {}
+packages:
+<<<<<<< HEAD
+    - gnumake
+    - topgrade
+=======
+  # KDE
+    # - libsForQt5.dolphin
+    # - libsForQt5.ark
+    # - libsForQt5.elisa
+    # - libsForQt5.filelight
+    # - libsForQt5.kate
+    # - libsForQt5.kcalc
+    # - libsForQt5.kcharselect
+    # - libsForQt5.kdeconnect-kde
+    # - libsForQt5.kdenlive
+    # - libsForQt5.kfind
+    # - libsForQt5.khelpcenter
+    # - libsForQt5.kinfocenter
+    # - libsForQt5.kmenuedit
+    # - libsForQt5.konsole
+    # - libsForQt5.libksysguard
+    # - libsForQt5.kwallet
+    # - libsForQt5.kwalletmanager
+    # - libsForQt5.okular
+    # - libsForQt5.plasma-pa
+    # - libsForQt5.plasma-systemmonitor
+    # - libsForQt5.plasma-wayland-protocols
+    # - qt6.qttools
+    # - libsForQt5.spectacle
+    # - partition-manager
+    # - libsForQt5.print-manager
+
+    - obsidian
+    - wire-desktop
+    - p7zip
+    - system-config-printer
+    - signal-desktop
+    - dxvk
+    - asdf-vm
+    - neovim
+>>>>>>> 3fd8d93 (durandal migration start)
+    - glfw
+    - atuin
+    - bash-completion
+    - bat
+    - broot
+    - btop
+    - direnv
+    - bitwarden
+    - cargo
+    - cargo-update
+    - cargo-binstall
+    - cheat
+    - curl
+    - du-dust
+    - duf
+    - neofetch
+    - zoom-us #video conferencing
+    - emacs
+    - emacsPackages.doom
+    - entr
+    - diffutils
+    - eza
+    - fd
+    - fzf
+    - gh
+    - github-desktop
+    - ghc
+    - git # belongs in system packages
+    - haskell-language-server
+    - helvum # find a replacement that lets you automatically apply a layout to bluetooth devices
+    - auto-cpufreq
+    - lazydocker
+    - lazygit
+    - pipewire
+    - wireplumber
+    - topgrade
+    - steamtinkerlaunch
+    # - tailscale
+    - discord
+    - keybase
+    - keybase-gui
+    - vlc
+    - mc
+    - mosh # belongs in system packages
+    - nix-zsh-completions
+    - openssh # belongs in system packages 
+    - python3
+    - ruby
+    - ruff
+    - ripgrep
+    - rustc
+    - topgrade
+    - tldr
+    - tree
+    - wget
+    - xplr
+    - zellij
+    - magic-wormhole
+    - nanorc
+    - input-leap
+    - r2modman
+    - zi
+    - gimp
+    - kitty-img
+    - zoxide
+    - tailscale
+    - xclip
+    - xsel
+    - wl-clipboard
+    - wl-clipboard-x11
+    - piper
+    - libreoffice-qt
+    - emote # https://github.com/tom-james-watson/emote
+    
+    - kitty
+<<<<<<< HEAD
+    - magic-wormhole
+    - github-desktop
+    - syncthing
+    - rnix-lsp
+    - nixfmt
+=======
+    - qmk
+    - bat
+    - bat-extras.prettybat
+    - bat-extras.batwatch
+    - bat-extras.batpipe
+    - bat-extras.batman
+    - bat-extras.batgrep
+    - bat-extras.batdiff
+    - teamspeak_client
+    - telegram-desktop
+    
+    # - plocate # belongs in system packages
+        
+
+programs:
+    # Steam is set up through nixos configuration https://nixos.wiki/wiki/Steam
+    - vscode
+    - dircolors
+    - micro
+    - zsh
+# python
+    - python3
+    - ruff
+    - ruff-lsp
+    - black
+    
+>>>>>>> 3fd8d93 (durandal migration start)
+paths:
+    - /usr/local
+    - /usr/bin
+    - /nix/var/nix/profiles/default/bin
+    - $HOME/bin
+    - $HOME/.local/bin
+    - $HOME/.nix-profile/bin
+    - $HOME/.zi/bin
+    - $HOME/.config/zi/bin
+    - $HOME/.config/emacs/bin
+    - $HOME/.cargo/bin
+programs:
+    - dircolors
+    - micro
+    - zsh
+shell: zsh
+systems:
+    - arch: x86_64
+      home: ""
+      hostname: durandal
+      os: linux
+      user:
+        email: nire@computernope.net
+        name: Nire Bryce
+        ssh_private_key_file: ~/.ssh/id_ed25519
+        ssh_public_key_file: ~/.ssh/id_ed25519.pub
+        username: elly
+      username: elly
+    - arch: x86_64
+      home: ""
+      hostname: nire-lysithea
+      os: linux
+      user:
+        email: nire@computernope.net
+        name: Nire Bryce
+        ssh_private_key_file: ~/.ssh/id_ed25519
+        ssh_public_key_file: ~/.ssh/id_ed25519.pub
+        username: elly
+      username: elly
+    - arch: x86_64
+      home: ""
+      hostname: nire-galatea
+      os: linux
+      user:
+        email: nire@computernope.net
+        name: Nire Bryce
+        ssh_private_key_file: ~/.ssh/id_ed25519
+        ssh_public_key_file: ~/.ssh/id_ed25519.pub
+        username: elly
+      username: elly
+track: nixos-unstable
+unfree: true
+users: []
