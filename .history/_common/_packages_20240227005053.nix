@@ -4,9 +4,11 @@
     # Configure your nixpkgs instance
     config = {
       # Disable if you don't want unfree packages
+      
       allowUnfree = true;
       # Workaround for https://github.com/nix-community/home-manager/issues/2942
       allowUnfreePredicate = (_: true);
+
     };
   };
 
@@ -37,9 +39,10 @@
         tabstospaces = true;
       };
     };
-    dircolors.enable = true; 
-    zsh.enable = true;
-    vscode = { # https://github.com/nix-community/home-manager/blob/master/modules/programs/vscode.nix
+    programs.dircolors.enable = true; 
+    programs.micro.enable = true; 
+    programs.zsh.enable = true;
+    programs.vscode = { # https://github.com/nix-community/home-manager/blob/master/modules/programs/vscode.nix
       enable = true;
       extensions = [ # TODO: vscode extensions
         # example
@@ -51,7 +54,7 @@
       };
 
       languageSnippets = { # JSON file contents, lang-specific
-      };
+      
 
       # might cause problems
       enableExtensionUpdateCheck = true;
@@ -63,7 +66,9 @@
         # { key = "ctrl+c"; command = "editor.action.clipboardCopyAction"; when = "textInputFocus"; }
         # { key = " "; command = " "; when = " "; }    
       ];
-    };
+
+
+
   };
   
 
@@ -143,10 +148,9 @@
 
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
-  
   fonts.fontconfig.enable = true; 
   home.stateVersion =
     "22.11"; # To figure this out (in-case it changes) you can comment out the line and see what version it expected.
   programs.home-manager.enable = true;
-
+}
 }

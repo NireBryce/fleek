@@ -12,7 +12,7 @@
 
   programs = { 
     micro = {          # editor for phone-ssh
-      enable = true;
+    enable = true;
       settings = {
         autoclose = false;
         backup = false;
@@ -38,6 +38,7 @@
       };
     };
     dircolors.enable = true; 
+    micro.enable = true; 
     zsh.enable = true;
     vscode = { # https://github.com/nix-community/home-manager/blob/master/modules/programs/vscode.nix
       enable = true;
@@ -64,6 +65,8 @@
         # { key = " "; command = " "; when = " "; }    
       ];
     };
+
+
   };
   
 
@@ -143,10 +146,9 @@
 
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
-  
   fonts.fontconfig.enable = true; 
   home.stateVersion =
     "22.11"; # To figure this out (in-case it changes) you can comment out the line and see what version it expected.
   programs.home-manager.enable = true;
-
+}
 }
