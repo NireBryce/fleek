@@ -26,7 +26,7 @@
     
     homeConfigurations = {
     
-      "elly@durandal" = home-manager.lib.homeManagerConfiguration {
+      "elly@nire-durandal" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
         modules = [
@@ -37,8 +37,8 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./durandal/elly.nix
-          ./durandal/custom.nix
+          ./nire-durandal/elly.nix
+          ./nire-durandal/custom.nix
           # self-manage fleek
           {
             home.packages = [

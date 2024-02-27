@@ -23,7 +23,7 @@ Your actual aliases are listed below:
 
     fleek-edit = "micro ~/.fleek.yml";
 
-    fleek-user = "micro ~/.local/share/fleek/user..nix";
+    fleek-user = "micro ~/.local/share/fleek/user.nix";
 
     fleeks = "cd ~/.local/share/fleek";
 
