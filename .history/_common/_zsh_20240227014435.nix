@@ -88,7 +88,7 @@
 	    cp = "cp -i";                              # Confirm before overwriting something
 			cd = "f";                                  # Empty oneletter for zoxide to not interfere with zi
 			fleeks = "cd ~/.local/share/fleek";
-			exa = "eza --icons=always";
+			exa = "eza";
 			ls = "eza --icons=always --header --group-directories-first";
     };
     
