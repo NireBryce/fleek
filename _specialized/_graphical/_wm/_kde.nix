@@ -25,6 +25,7 @@
     # plasma-pa
     # libsForQt5.plasma-systemmonitor
     # libsForQt5.plasma-wayland-protocols
+    pkgs.kdePackages.kdeconnect-kde
     pkgs.plasma-pa
     pkgs.qt6.qttools
     # kdePackages.kdeconnect-kde
