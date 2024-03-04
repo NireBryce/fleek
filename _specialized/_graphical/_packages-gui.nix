@@ -21,6 +21,7 @@
                               # find a replacement that lets you automatically apply a layout to bluetooth devices
   # mouse
     piper
+    ratbagd
   # keyboard
     qmk
   # media
