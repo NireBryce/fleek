@@ -1,6 +1,6 @@
 { pkgs, misc, ... }: {
   home.packages = with pkgs; [
-    pipewire
+    # pipewire
     wireplumber
 
   ];
