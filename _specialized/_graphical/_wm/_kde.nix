@@ -16,7 +16,7 @@
     # libsForQt5.kwallet
     # libsForQt5.kwalletmanager
     # libsForQt5.okular
-    plasma-pa
+    # plasma-pa
     # libsForQt5.plasma-systemmonitor
     # libsForQt5.plasma-wayland-protocols
     qt6.qttools
