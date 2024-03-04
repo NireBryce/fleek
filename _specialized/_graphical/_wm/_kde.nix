@@ -4,7 +4,6 @@
     # libsForQt5.dolphin
     # libsForQt5.ark
     # libsForQt5.elisa
-    filelight
     # libsForQt5.kate
     kcalc
     kcharselect
