@@ -7,7 +7,6 @@
     # libsForQt5.kate
     # kcharselect
     # libsForQt5.kdeconnect-kde
-    kdenlive
     kfind
     # libsForQt5.khelpcenter
     # libsForQt5.kinfocenter
