@@ -19,7 +19,7 @@
     # plasma-pa
     # libsForQt5.plasma-systemmonitor
     # libsForQt5.plasma-wayland-protocols
-    qt6.qttools
+    pkgs.qt6.qttools
     # kdePackages.kdeconnect-kde
     # partition-manager
     baloo
