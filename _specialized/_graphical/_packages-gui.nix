@@ -2,7 +2,7 @@
   home.packages = with pkgs; [
   # desktop applications
     obsidian
-    # keybase-gui
+    keybase-gui
     keybase
   # terminals
     kitty
@@ -10,12 +10,12 @@
   # chat
     telegram-desktop
     discord
-    # wire-desktop
+    wire-desktop
     signal-desktop
-    # zoom-us                   # video conferencing
+    zoom-us                   # video conferencing
     emote                     # emoji, https://github.com/tom-james-watson/emote
   # remote desktop
-  #  input-leap
+   input-leap
   # sound 
     helvum                    # mixer
                               # find a replacement that lets you automatically apply a layout to bluetooth devices
@@ -31,13 +31,13 @@
   # file management
     p7zip
   # printing
-    system-config-printer
+#    system-config-printer
   # editors
     # vscode                    # Manage plugins with nix
     #                           # https://github.com/nix-community/nix-vscode-extensions
     vscode-fhs                # manage plugins with vscode
   # programs
-    bitwarden                 # password manager
+#    bitwarden                 # password manager
   #dev
     github-desktop
   ];
