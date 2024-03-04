@@ -10,7 +10,7 @@
   # chat
     telegram-desktop
     discord
-    wire-desktop
+    # wire-desktop
     signal-desktop
     zoom-us                   # video conferencing
     emote                     # emoji, https://github.com/tom-james-watson/emote
