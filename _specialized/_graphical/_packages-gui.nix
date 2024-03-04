@@ -21,7 +21,7 @@
                               # find a replacement that lets you automatically apply a layout to bluetooth devices
   # mouse
     piper
-    libratbag
+    # libratbag               # handle in system
   # keyboard
     qmk
   # media
