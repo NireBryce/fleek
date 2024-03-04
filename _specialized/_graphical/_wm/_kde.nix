@@ -10,9 +10,9 @@
     # kfind
     # libsForQt5.khelpcenter
     # libsForQt5.kinfocenter
-    kmenuedit
+    # kmenuedit
     # libsForQt5.konsole
-    libksysguard
+    # libksysguard
     # libsForQt5.kwallet
     # libsForQt5.kwalletmanager
     # libsForQt5.okular
