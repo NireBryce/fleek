@@ -7,7 +7,7 @@
     # libsForQt5.kate
     # kcharselect
     # libsForQt5.kdeconnect-kde
-    kfind
+    # kfind
     # libsForQt5.khelpcenter
     # libsForQt5.kinfocenter
     kmenuedit
