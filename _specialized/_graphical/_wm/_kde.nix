@@ -5,7 +5,7 @@
     # libsForQt5.ark
     # libsForQt5.elisa
     # libsForQt5.kate
-    kcharselect
+    # kcharselect
     # libsForQt5.kdeconnect-kde
     kdenlive
     kfind
