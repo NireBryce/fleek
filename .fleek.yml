@@ -20,8 +20,7 @@ git:
 min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
-packages:
-
+packages: []
 paths:
     - /usr/local
     - /usr/bin
@@ -33,9 +32,7 @@ paths:
     - $HOME/.config/zi/bin
     - $HOME/.config/emacs/bin
     - $HOME/.cargo/bin
-programs:
-
-
+programs: []
 shell: zsh
 systems:
     - arch: x86_64
