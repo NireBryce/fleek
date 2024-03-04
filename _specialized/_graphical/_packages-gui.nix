@@ -10,12 +10,12 @@
   # chat
     telegram-desktop
     discord
-    # wire-desktop
+    wire-desktop
     signal-desktop
     zoom-us                   # video conferencing
     emote                     # emoji, https://github.com/tom-james-watson/emote
   # remote desktop
-    input-leap
+  #  input-leap
   # sound 
     helvum                    # mixer
                               # find a replacement that lets you automatically apply a layout to bluetooth devices
