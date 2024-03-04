@@ -23,8 +23,9 @@
     # libsForQt5.plasma-systemmonitor
     # libsForQt5.plasma-wayland-protocols
     qt6.qttools
-    kdeconnect-kde
+    kdePackages.kdeconnect-kde
     # libsForQt5.spectacle
     # partition-manager
   ];
+  programs.kdeconnect.enable = true;
 }
