@@ -64,8 +64,8 @@
 #         # { key = " "; command = " "; when = " "; }    
 #       ];
 #     };
-#   };
-#   
+    };
+  
 
   
   home.packages = with pkgs; [
