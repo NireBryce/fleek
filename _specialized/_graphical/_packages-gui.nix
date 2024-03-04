@@ -2,7 +2,7 @@
   home.packages = with pkgs; [
   # desktop applications
     obsidian
-    keybase-gui
+    # keybase-gui
     keybase
   # terminals
     kitty
@@ -10,9 +10,9 @@
   # chat
     telegram-desktop
     discord
-    wire-desktop
+    # wire-desktop
     signal-desktop
-    zoom-us                   # video conferencing
+    # zoom-us                   # video conferencing
     emote                     # emoji, https://github.com/tom-james-watson/emote
   # remote desktop
   #  input-leap
