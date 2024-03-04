@@ -4,4 +4,4 @@
     wireplumber
 
   ];
-};
+}
