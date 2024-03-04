@@ -29,7 +29,9 @@
     pkgs.qt6.qttools
     # kdePackages.kdeconnect-kde
     # partition-manager
-    pkgs.baloo
+    pkgs.kdePackages.baloo
+    pkgs.kdePackages.baloo-widgets
+    
   ];
   
 }
