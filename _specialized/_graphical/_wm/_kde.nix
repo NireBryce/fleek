@@ -5,7 +5,6 @@
     # libsForQt5.ark
     # libsForQt5.elisa
     # libsForQt5.kate
-    kcalc
     kcharselect
     # libsForQt5.kdeconnect-kde
     kdenlive
