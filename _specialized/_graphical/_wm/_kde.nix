@@ -7,10 +7,16 @@
     # libsForQt5.kate
     # kcharselect
     # libsForQt5.kdeconnect-kde
-    # kfind
+    pkgs.filelight
+    pkgs.kfind
+    pkgs.kmenuedit
+    pkgs.kdenlive
+    pkgs.kcharselect
+    pkgs.kcalc
+    
     # libsForQt5.khelpcenter
     # libsForQt5.kinfocenter
-    # kmenuedit
+    pkgs.kmenuedit
     # libsForQt5.konsole
     # libksysguard
     # libsForQt5.kwallet
@@ -19,10 +25,11 @@
     # plasma-pa
     # libsForQt5.plasma-systemmonitor
     # libsForQt5.plasma-wayland-protocols
+    pkgs.plasmapa
     pkgs.qt6.qttools
     # kdePackages.kdeconnect-kde
     # partition-manager
-    baloo
+    pkgs.baloo
   ];
   
 }
