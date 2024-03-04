@@ -39,33 +39,33 @@
     };
     dircolors.enable = true; 
     zsh.enable = true;
-    vscode = { # https://github.com/nix-community/home-manager/blob/master/modules/programs/vscode.nix
-      enable = true;
-      extensions = [ # TODO: vscode extensions
-        # example
-        # pkgs.vscode-extensions.bbenoist.nix
-      ];
-      
-      globalSnippets = { # JSON file contents 
-
-      };
-
-      languageSnippets = { # JSON file contents, lang-specific
-      };
-
-      # might cause problems
-      enableExtensionUpdateCheck = true;
-      enableUpdateCheck = true;
-
-      keybindings = [
-        # TODO: vscode bindings
-        # example:  
-        # { key = "ctrl+c"; command = "editor.action.clipboardCopyAction"; when = "textInputFocus"; }
-        # { key = " "; command = " "; when = " "; }    
-      ];
-    };
-  };
-  
+#     vscode = { # https://github.com/nix-community/home-manager/blob/master/modules/programs/vscode.nix
+#       enable = true;
+#       extensions = [ # TODO: vscode extensions
+#         # example
+#         # pkgs.vscode-extensions.bbenoist.nix
+#       ];
+#       
+#       globalSnippets = { # JSON file contents 
+# 
+#       };
+# 
+#       languageSnippets = { # JSON file contents, lang-specific
+#       };
+# 
+#       # might cause problems
+#       enableExtensionUpdateCheck = true;
+#       enableUpdateCheck = true;
+# 
+#       keybindings = [
+#         # TODO: vscode bindings
+#         # example:  
+#         # { key = "ctrl+c"; command = "editor.action.clipboardCopyAction"; when = "textInputFocus"; }
+#         # { key = " "; command = " "; when = " "; }    
+#       ];
+#     };
+#   };
+#   
 
   
   home.packages = with pkgs; [
@@ -146,7 +146,7 @@
   
   fonts.fontconfig.enable = true; 
   home.stateVersion =
-    "22.11"; # To figure this out (in-case it changes) you can comment out the line and see what version it expected.
+    "23.11"; # To figure this out (in-case it changes) you can comment out the line and see what version it expected.
   programs.home-manager.enable = true;
 
 }
