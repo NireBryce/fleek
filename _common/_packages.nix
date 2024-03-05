@@ -96,7 +96,9 @@
     wl-clipboard-x11     # should replace xsel and xclip
     # xclip                # X11 clipboard
     # xsel                 # other half of xclip
-
+    zip
+    unzip
+    
   # "core utils"
     curl
     du-dust              # better du
