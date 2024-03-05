@@ -21,11 +21,11 @@
   };
   
   home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
-  home.file.".zshrc".source = "../_dotfiles/config/zsh/.zshrc";
-  home.file.".zprofile".source = "../_dotfiles/config/zsh/.profile";
-  home.file.".zlogin".source = "../_dotfiles/config/zsh/.zlogin";
-  home.file.".zshenv".source = "../_dotfiles/config/zsh/.zshenv";
-  home.file.".zlogout".source = "../_dotfiles/config/zsh/.zshenv";
+  home.file.".zshrc".source = "config/zsh/.zshrc";
+  home.file.".zprofile".source = "config/zsh/.profile";
+  home.file.".zlogin".source = "config/zsh/.zlogin";
+  home.file.".zshenv".source = "config/zsh/.zshenv";
+  home.file.".zlogout".source = "config/zsh/.zlogout";
   
   programs = {
     dircolors.enable = true; 
@@ -125,19 +125,7 @@
         ls = "eza --icons=always --header --group-directories-first";
       };
       
-      # .zshenv
-      envExtra = ''
       
-      '';
-      # .zlogin
-      loginExtra = ''
-
-      '';
-
-      # .zprofile
-      profileExtra = ''
-      
-      '';
 
 
       
@@ -533,10 +521,8 @@
       #     bindkey -r "^[c"
       #     bindkey -r "^[C"
       # '';
-      # .zlogout
-      logoutExtra = ''
 
-      '';
+
     };
 
 }
