@@ -41,5 +41,12 @@
 #    bitwarden                 # password manager
   #dev
     github-desktop
+
+  # kde settings
+  wayland-info
+  vulkaninfo
+  glxinfo
+  eglinfo
+  clinfo
   ];
 }
