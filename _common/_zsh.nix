@@ -21,7 +21,12 @@
   };
   
   home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
-  home.file."~/zsh/.zshrc".source = "../_dotfiles/config/zsh/.zshrc";
+  home.file.".zshrc".source = "../_dotfiles/config/zsh/.zshrc";
+  home.file.".zprofile".source = "../_dotfiles/config/zsh/.profile";
+  home.file.".zlogin".source = "../_dotfiles/config/zsh/.zlogin";
+  home.file.".zshenv".source = "../_dotfiles/config/zsh/.zshenv";
+  home.file.".zlogout".source = "../_dotfiles/config/zsh/.zshenv";
+  
   programs = {
     dircolors.enable = true; 
     dircolors.enableZshIntegration = true;
@@ -131,7 +136,7 @@
 
       # .zprofile
       profileExtra = ''
-
+      
       '';
 
 
