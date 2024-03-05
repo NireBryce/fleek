@@ -25,13 +25,14 @@
     # plasma-pa
     # libsForQt5.plasma-systemmonitor
     # libsForQt5.plasma-wayland-protocols
-    pkgs.kdePackages.kdeconnect-kde
-    pkgs.plasma-pa
     pkgs.qt6.qttools
     # kdePackages.kdeconnect-kde
     # partition-manager
-    pkgs.kdePackages.baloo
-    pkgs.kdePackages.baloo-widgets
+  # moved to main-line system flake:
+    # pkgs.kdePackages.kdeconnect-kde
+    # pkgs.kdePackages.plasma-pa
+    # pkgs.kdePackages.baloo
+    # pkgs.kdePackages.baloo-widgets
     
   ];
   
