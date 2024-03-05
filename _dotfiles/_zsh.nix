@@ -21,11 +21,11 @@
   };
   
   home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
-  home.file.".zshrc".source = "config/zsh/.zshrc";
-  home.file.".zprofile".source = "config/zsh/.zprofile";
-  home.file.".zlogin".source = "config/zsh/.zlogin";
-  home.file.".zshenv".source = "config/zsh/.zshenv";
-  home.file.".zlogout".source = "config/zsh/.zlogout";
+  home.file.".zshrc".source = config/zsh/.zshrc;
+  home.file.".zprofile".source = config/zsh/.zprofile;
+  home.file.".zlogin".source = config/zsh/.zlogin;
+  home.file.".zshenv".source = config/zsh/.zshenv;
+  home.file.".zlogout".source = config/zsh/.zlogout;
   
   programs = {
     dircolors.enable = true; 
