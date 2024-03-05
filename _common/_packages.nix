@@ -10,61 +10,7 @@
     };
   };
 
-  programs = { 
-    micro = {          # editor for phone-ssh
-      enable = true;
-      settings = {
-        autoclose = false;
-        backup = false;
-        autosu = true;
-        cursorline  = true;
-        colorscheme = "dukeubuntu-tc";
-        difgutter = true;
-        eofnewline = true;
-        fastdirty = true;
-        ignorecase = false;
-        keyenu = true;
-        mkparents = true;
-        savehistory = false;
-        tabsize = 2;
-        tsbstospaces = true;
-        colorcolumn = 81;
-        indentchar = "·";
-        multiopen = "hsplit";
-        parsecursor = true;
-        linter = true;
-        comment = true;
-        tabstospaces = true;
-      };
-    };
-    dircolors.enable = true; 
-    zsh.enable = true;
-#     vscode = { # https://github.com/nix-community/home-manager/blob/master/modules/programs/vscode.nix
-#       enable = true;
-#       extensions = [ # TODO: vscode extensions
-#         # example
-#         # pkgs.vscode-extensions.bbenoist.nix
-#       ];
-#       
-#       globalSnippets = { # JSON file contents 
-# 
-#       };
-# 
-#       languageSnippets = { # JSON file contents, lang-specific
-#       };
-# 
-#       # might cause problems
-#       enableExtensionUpdateCheck = true;
-#       enableUpdateCheck = true;
-# 
-#       keybindings = [
-#         # TODO: vscode bindings
-#         # example:  
-#         # { key = "ctrl+c"; command = "editor.action.clipboardCopyAction"; when = "textInputFocus"; }
-#         # { key = " "; command = " "; when = " "; }    
-#       ];
-#     };
-    };
+
   
 
   

@@ -1,10 +1,10 @@
-{ lib, config, pkgs, misc, ... }: {
+{ lib, config, pkgs, misc, ... }: 
+{
 	# FEEL FREE TO EDIT: This file is NOT managed by fleek.
 
 
   # Notes:
     # If you get permission denied errors, delete ~/.zcompdump and ~/.config/zsh/.zcompdump and run `zi update`
-
 
   home.sessionVariables = { 
     EDITOR = "micro";
@@ -22,13 +22,17 @@
   
   home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
 
-  programs.atuin.enableZshIntegration = true;
-  programs.dircolors.enableZshIntegration = true;
-  programs.direnv.enableZshIntegration = true;
-  programs.fzf.enableZshIntegration = true;
-  programs.zellij.enableZshIntegration = true;
-  programs.zoxide.enableZshIntegration = true;
-  programs.zsh = {
+  programs = {
+		dircolors.enable = true; 
+		dircolors.enableZshIntegration = true;
+		atuin.enableZshIntegration = true;
+		direnv.enableZshIntegration = true;
+		fzf.enableZshIntegration = true;
+		zellij.enableZshIntegration = true;
+		zoxide.enableZshIntegration = true;
+	};
+  
+	zsh = {
     enable = true;
 		autocd = false;
 		enableVteIntegration = true;
@@ -489,15 +493,16 @@
 
 				WORDCHARS='*?[]~=&;!#$%^(){}<>';       # Don't consider certain characters part of the word
 
+				# cleanup
+				zicompinit                                                              # <- https://wiki.zshell.dev/docs/guides/commands
+				autoload -Uz compinit
+				# compinit
 		'';
 
 
 		completionInit = ''
 	
-			# cleanup
-				zicompinit                                                              # <- https://wiki.zshell.dev/docs/guides/commands
-				autoload -Uz compinit
-				compinit
+
 		
 		'';
 
