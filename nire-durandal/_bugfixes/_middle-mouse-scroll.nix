@@ -12,7 +12,7 @@
   #
 
   home.activation = { 
-    bugfix-middle-mouse-scroll = home-manager.lib.hm.dag.entryAfter ["writeBoundary"] ''
+    bugfix-middle-mouse-scroll = lib.hm.dag.entryAfter ["writeBoundary"] ''
       qdbus org.kde.KWin /org/kde/KWin/InputDevice/event5 org.kde.KWin.InputDevice.scrollOnButtonDown true 
     '';
     # optionally 
