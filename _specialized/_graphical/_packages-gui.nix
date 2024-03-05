@@ -42,7 +42,7 @@
   #dev
     github-desktop
 
-  # kde settings
+  #gpu meta
   wayland-utils
   vulkan-tools
   glxinfo

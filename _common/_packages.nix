@@ -44,7 +44,9 @@
     # xsel                 # other half of xclip
     zip
     unzip
-    
+  
+  ## system - hardware
+      libinput 
   # "core utils"
     curl
     du-dust              # better du
