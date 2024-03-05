@@ -2,7 +2,8 @@
 	# FEEL FREE TO EDIT: This file is NOT managed by fleek.
   
 	
-  home.packages = [
+  home.packages = with pkgs; [
+    obs-studio
   ];
 
 }
