@@ -7,7 +7,9 @@
     ../_specialized/_sound
     ../_specialized/_dev
     ../_common
-		
+		../_dotfiles
+
+		./_bugfixes/_middle-mouse-scroll.nix
 		# machine packages
     ./_packages.nix
 	];

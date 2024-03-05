@@ -125,7 +125,6 @@
         ls = "eza --icons=always --header --group-directories-first";
       };
       
-      
 
 
       
