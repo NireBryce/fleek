@@ -1,5 +1,11 @@
 { lib, config, pkgs, misc, ... }: {
 	# FEEL FREE TO EDIT: This file is NOT managed by fleek.
+
+
+  # Notes:
+    # If you get permission denied errors, delete ~/.zcompdump and ~/.config/zsh/.zcompdump and run `zi update`
+
+
   home.sessionVariables = { 
     EDITOR = "micro";
 		MICRO_TRUECOLOR = 1;
@@ -67,19 +73,19 @@
 			"whence"="type -a";
 			"zsh-keymap"="bindkey";
 		};
-		syntaxHighlighting = {
-      enable = true;
-      # package = "";
-      highlighters = [
-        "brackets"
-        "pattern"
-        "regexp"
-        # "cursor"
-        # "root"
-        # "line"
-      ];
-      
-		};   
+		# syntaxHighlighting = {
+  #     enable = true;
+  #     # package = "";
+  #     highlighters = [
+  #       "brackets"
+  #       "pattern"
+  #       "regexp"
+  #       # "cursor"
+  #       # "root"
+  #       # "line"
+  #     ];
+  #     
+		# };   
 
 	dotDir=".config/zsh";
 		shellAliases = {
