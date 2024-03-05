@@ -21,6 +21,8 @@
   };
   
   home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
+  home.file.".p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
+
   home.file.".zshrc".source = config/zsh/.zshrc;
   home.file.".zprofile".source = config/zsh/.zprofile;
   home.file.".zlogin".source = config/zsh/.zlogin;
