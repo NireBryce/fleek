@@ -43,10 +43,10 @@
     github-desktop
 
   # kde settings
-  wayland-info
-  vulkaninfo
+  wayland-utils
+  vulkan-tools
   glxinfo
-  eglinfo
+  # eglinfo
   clinfo
   ];
 }
