@@ -132,10 +132,6 @@
 				source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
 			fi
 
-			# zsh-abbr
-				abbr -g "--help"="--help | bat --language man";
-				abbr -g "pamac-refresh-mirrors"="pacman-mirrors -f 5 && sudo pacman -Syuu";
-				abbr -g "_regex-extract_url"="'(https?|ftp|file)://[^\s/\$.?#].[^\s]*'";
 			typeset -U path cdpath fpath manpath
 
 				for profile in ''${(z)NIX_PROFILES}; do
@@ -152,7 +148,12 @@
 				if [[ -r "''${XDG_CONFIG_HOME:-''${HOME}/.config}/zi/init.zsh" ]]; then
 					source "''${XDG_CONFIG_HOME:-''${HOME}/.config}/zi/init.zsh" && zzinit
 				fi
-				
+
+	# Needed for firstrun	
+			# # zsh-abbr
+			# 	abbr -g "--help"="--help | bat --language man";
+			# 	abbr -g "pamac-refresh-mirrors"="pacman-mirrors -f 5 && sudo pacman -Syuu";
+			# 	abbr -g "_regex-extract_url"="'(https?|ftp|file)://[^\s/\$.?#].[^\s]*'";
 		'';
 
 		initExtraBeforeCompInit = ''
@@ -518,6 +519,12 @@
 	};    
  
 }
+
+
+
+
+
+
 
 
 
