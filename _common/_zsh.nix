@@ -32,7 +32,7 @@
 		zoxide.enableZshIntegration = true;
 	};
   
-	zsh = {
+	programs.zsh = {
     enable = true;
 		autocd = false;
 		enableVteIntegration = true;
