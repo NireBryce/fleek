@@ -1,11 +1,9 @@
 [user]
-	email = nire@computernope.net
-	name = Nire Bryce
+	email = "nire@computernope.net"
+	name = "Nire Bryce"
 [credential "https://github.com"]
-	helper = 
-	helper = gh auth git-credential
+	helper = "gh auth git-credential"
 [credential "https://gist.github.com"]
-	helper = 
-	helper = gh auth git-credential
+	helper = "gh auth git-credential"
 [init]
 	defaultBranch = main
