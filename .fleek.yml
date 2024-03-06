@@ -40,8 +40,8 @@ systems:
       hostname: nire-durandal
       os: linux
       user:
-        email: nire@computernope.net
-        name: Nire Bryce
+        email: "nire@computernope.net"
+        name: "Nire Bryce"
         ssh_private_key_file: ~/.ssh/id_ed25519
         ssh_public_key_file: ~/.ssh/id_ed25519.pub
         username: elly
@@ -51,8 +51,8 @@ systems:
       hostname: nire-lysithea
       os: linux
       user:
-        email: nire@computernope.net
-        name: Nire Bryce
+        email: "nire@computernope.net"
+        name: "Nire Bryce"
         ssh_private_key_file: ~/.ssh/id_ed25519
         ssh_public_key_file: ~/.ssh/id_ed25519.pub
         username: elly
@@ -62,8 +62,8 @@ systems:
       hostname: nire-galatea
       os: linux
       user:
-        email: nire@computernope.net
-        name: Nire Bryce
+        email: "nire@computernope.net"
+        name: "Nire Bryce"
         ssh_private_key_file: ~/.ssh/id_ed25519
         ssh_public_key_file: ~/.ssh/id_ed25519.pub
         username: elly
