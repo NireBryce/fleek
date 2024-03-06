@@ -6,7 +6,6 @@
 		../_specialized/_graphical/_wm/_kde.nix
     ../_specialized/_sound
     ../_specialized/_dev
-    ../_common
 		../_dotfiles
 
 		./_bugfixes/_middle-mouse-scroll.nix
