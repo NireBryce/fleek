@@ -20,8 +20,6 @@
     enable = true;
   };
   
-  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
-  home.file.".p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
 
   home.file.".zprofile".source = config/zsh/.zprofile;
   home.file.".zlogin".source = config/zsh/.zlogin;
@@ -39,22 +37,24 @@
   };
   
 
+  home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
+  home.file.".p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
   home.file.".config/zsh/.zshrc".source = config/zsh/.zshrc;
   home.file.".zshrc".source = config/zsh/.zshrc;      
   programs.zsh = {
 
     # dotDir=".config/zsh";
-    plugins = [
-    {
-      name = "powerlevel10k";
-      src = pkgs.zsh-powerlevel10k;
-      file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-    }
-    {
-      name = "powerlevel10k-config";
-      src = config/zsh-powerlevel10k; file = ".p10k.zsh";
-      }
-    ];
+    # plugins = [
+    # {
+    #   name = "powerlevel10k";
+    #   src = pkgs.zsh-powerlevel10k;
+    #   file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+    # }
+    # {
+    #   name = "powerlevel10k-config";
+    #   src = config/zsh-powerlevel10k; file = ".p10k.zsh";
+    #   }
+    # ];
     enable = true;
     autocd = false;
     enableVteIntegration = true;

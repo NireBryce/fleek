@@ -318,7 +318,7 @@
 
   # syntax highlighting
     zi light z-shell/F-Sy-H
-    fast-theme z-shell
+    # fast-theme z-shell
     zi light trapd00r/zsh-syntax-highlighting-filetypes                     # https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
 
   # Themes and colors
