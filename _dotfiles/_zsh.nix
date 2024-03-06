@@ -39,10 +39,11 @@
   };
   
 
-  home.file.".config/zsh/.zshrc".source = config/zsh/.zshrc;      
+  home.file.".config/zsh/.zshrc".source = config/zsh/.zshrc;
+  home.file.".zshrc".source = config/zsh/.zshrc;      
   programs.zsh = {
 
-    dotDir=".config/zsh";
+    # dotDir=".config/zsh";
     plugins = [
     {
       name = "powerlevel10k";
