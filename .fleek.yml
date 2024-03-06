@@ -44,8 +44,8 @@ systems:
         name: Nire Bryce
         ssh_private_key_file: ~/.ssh/id_ed25519
         ssh_public_key_file: ~/.ssh/id_ed25519.pub
-        # username: elly
-        username: NireBryce
+        username: elly
+        # username: NireBryce
       username: elly
     - arch: x86_64
       home: ""
