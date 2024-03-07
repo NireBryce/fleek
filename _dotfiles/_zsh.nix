@@ -6,15 +6,8 @@
   # Notes:
     # If you get permission denied errors, delete ~/.zcompdump and ~/.config/zsh/.zcompdump and run `zi update`
 
-    home.shellAliases = {
-      ll = "ls -l";
-      update = "fleek apply";
-      cp = "cp -i";                              # Confirm before overwriting something
-      cd = "x";                                  # Empty oneletter for zoxide to not interfere with zi
-      fleeks = "cd ~/.local/share/fleek";
-      exa = "eza --icons=always";
-      ls = "eza --icons=always --header --group-directories-first";
-    };
+  home.shellAliases = { };  # zsh config breaks this, 
+                            # aliases need to be added after .zshrc eval
     
   home.sessionVariables = { 
     EDITOR = "micro";
