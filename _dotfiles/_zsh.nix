@@ -6,6 +6,16 @@
   # Notes:
     # If you get permission denied errors, delete ~/.zcompdump and ~/.config/zsh/.zcompdump and run `zi update`
 
+    home.shellAliases = {
+      ll = "ls -l";
+      update = "fleek apply";
+      cp = "cp -i";                              # Confirm before overwriting something
+      cd = "x";                                  # Empty oneletter for zoxide to not interfere with zi
+      fleeks = "cd ~/.local/share/fleek";
+      exa = "eza --icons=always";
+      ls = "eza --icons=always --header --group-directories-first";
+    };
+    
   home.sessionVariables = { 
     EDITOR = "micro";
     MICRO_TRUECOLOR = 1;
@@ -120,19 +130,10 @@
       
     # };   
     localVariables = {
-      _ZO_CMD_PREFIX="f";
+      # _ZO_CMD_PREFIX="f";
     };
     
-    shellAliases = {
-      ll = "ls -l";
-      update = "fleek apply";
-      cp = "cp -i";                              # Confirm before overwriting something
-      cd = "f";                                  # Empty oneletter for zoxide to not interfere with zi
-      fleeks = "cd ~/.local/share/fleek";
-      exa = "eza --icons=always";
-      ls = "eza --icons=always --header --group-directories-first";
-    };
-    
+
 
 
     
