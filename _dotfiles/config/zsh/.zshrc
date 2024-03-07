@@ -266,14 +266,6 @@
     zi load Aloxaf/fzf-tab
     zi light alexiszamanidis/zsh-git-fzf                                  # https://github.com/alexiszamanidis/zsh-git-fzf
 
-  # install zoxide
-  # make it not interfere with zi
-  # _ZO_CMD_PREFIX="f"
-  # ^ this is no longer needed ^ 
-  
-  # Zoxide plugin
-    zi has'zoxide' wait lucid for \
-    z-shell/zsh-zoxide
       
   # Plugins
   # Aliases
@@ -358,6 +350,14 @@
     zicompinit                                                              # <- https://wiki.zshell.dev/docs/guides/commands
     autoload -Uz compinit
     compinit
+  # install zoxide, must be after compinit https://github.com/ajeetdsouza/zoxide
+  # make it not interfere with zi
+  # _ZO_CMD_PREFIX="f"
+  # ^ this is no longer needed ^ 
+  
+  # Zoxide plugin
+    zi has'zoxide' wait lucid for \
+    z-shell/zsh-zoxide
 
   # Atuin
       export ATUIN_NOBIND="true"
