@@ -8,9 +8,9 @@
 
   typeset -U path cdpath fpath manpath
 
-  # for profile in ${(z)NIX_PROFILES}; do
-  # fpath+=($profile/share/zsh/site-functions $profile/share/zsh/$ZSH_VERSION/functions $profile/share/zsh/vendor-completions)
-  # done
+  for profile in ${(z)NIX_PROFILES}; do
+    fpath+=($profile/share/zsh/site-functions $profile/share/zsh/$ZSH_VERSION/functions $profile/share/zsh/vendor-completions)
+  done
 
   # zi install
     if [[ ! -d "$HOME/.zi" ]]; then
@@ -267,10 +267,10 @@
     zi light alexiszamanidis/zsh-git-fzf                                  # https://github.com/alexiszamanidis/zsh-git-fzf
 
   # install zoxide
-  #make it not interfere with zi
-  _ZO_CMD_PREFIX="f" 
-  # zi ice as'null' from"gh-r" sbin
-  # zi light ajeetdsouza/zoxide                                             
+  # make it not interfere with zi
+  # _ZO_CMD_PREFIX="f"
+  # ^ this is no longer needed ^ 
+  
   # Zoxide plugin
     zi has'zoxide' wait lucid for \
     z-shell/zsh-zoxide
@@ -365,9 +365,6 @@
       bindkey '^r' _atuin_search_widget
   # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
       [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-  # enable hash (#) character for line-comments by turning off extended globbing
-      # unsetopt extended_glob
-      # setopt interactive_comments
   # free up keybindings for copy/paste in zellij
       bindkey -r "^V"
       bindkey -r "^v"
@@ -376,3 +373,11 @@
       bindkey -r "^[c"
       bindkey -r "^[C"
   
+  # disable # parsing so you can do flakes
+  # https://stackoverflow.com/questions/12303805/oh-my-zsh-hash-pound-symbol-bad-pattern-or-match-not-found/57380936#57380936
+  # this fixes nix-flakes
+    disable -p '#'
+
+  # enable hash (#) character for line-comments by turning off extended globbing
+      # unsetopt extended_glob
+      # setopt interactive_comments

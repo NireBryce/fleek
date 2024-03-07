@@ -36,7 +36,14 @@
     zoxide.enableZshIntegration = true;
   };
   
-
+  home.packages = with pkgs; [ 
+    diff-so-fancy
+    zoxide
+    atuin
+    fzf
+    
+  ];
+  
   home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
   home.file.".p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
   home.file.".config/zsh/.zshrc".source = config/zsh/.zshrc;
