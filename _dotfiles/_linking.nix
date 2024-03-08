@@ -17,5 +17,5 @@
   # "./zsh-abbr".source = config/zsh-abbr;
   "./.config/zsh.d".source = config/zsh.d;
   };
-
+# TODO: python linkables
 }
