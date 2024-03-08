@@ -20,88 +20,86 @@ git:
 min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
-packages: [
-  asdf-vm,              # proglang version manager
-  atuin,                # cross-device shell history
-  auto-cpufreq,
-  bash-completion,
-  bat-extras.batdiff,
-  bat-extras.batgrep,
-  bat-extras.batman,
-  bat-extras.batpipe,
-  bat-extras.batwatch,
-  bat-extras.prettybat,
-  bat,                  # better `cat`
-  broot, 
-  btop,                 # better htop
-  cheat,                # cheat.sh
-  curl,
-  diffutils,
-  direnv,               # manage per-directory environment variables
-  du-dust,              # better du
-  duf,                  # disk usage/free
-  emacs,
-  emacsPackages.doom,   # doom emacs
-  entr, 
-  eza,                  # ls but better, exa fork
-  fd,                   # better find
-  fzf,                  # Fuzzy Finder, silversearcher replacement
-  gh,                   # github-cli
-  git, 
-  gnumake,
-  lazydocker,           # docker, interactive
-  lazygit,              # git interface
-  libinput, 
-  magic-wormhole,
-  mc,                   # dual pane file browser
-  mlocate,              # find things the old way
-  mosh,            # ssh but more async
-  nano,                 # fallback with good nix syntax highlighting, easier on phone than vim
-  nanorc,               # the syntax highlighting
-  neofetch,
-  neovim,             # Modern vim
-  nix-zsh-completions,
-  obs-studio,
-  ripgrep,              # rg, better grep
-  tldr,                 # nicer `man`
-  topgrade,             # upgrade all the things
-  tree,
-  unzip,
-  wget,
-  wl-clipboard-x11,     # should replace xsel and xclip
-  wl-clipboard,         # wayland clipboard
-  zellij,               # terminal multiplexer
-  zi,                   # zsh plugin manager
-  zip,
-  zoxide,               # better `cd`
-  obsidian,
-  keybase-gui
-  ,keybase
-  ,kitty
-  ,kitty-img                 # img-cat support
-  ,telegram-desktop
-  ,discord
-  ,wire-desktop
-  ,signal-desktop
-  ,zoom-us                   # video conferencing
-  ,emote                     # emoji, https://github.com/tom-james-watson/emote
-  ,input-leap
-  ,helvum                    # mixer
-                            # find a replacement that lets you automatically apply a layout to bluetooth devices
-  ,piper
-  ,qmk
-  , vlc
-  ,  gimp
-  ,  libreoffice-qt
-  ,  p7zip
-  ,  vscode-fhs                # manage plugins with vscode
-  , github-desktop
-
-  ,wayland-utils
-  ,vulkan-tools
-  ,glxinfo
-  ,clinfo
-]
+packages:
+    - asdf-vm
+    - atuin
+    - auto-cpufreq
+    - bash-completion
+    - bat-extras.batdiff
+    - bat-extras.batgrep
+    - bat-extras.batman
+    - bat-extras.batpipe
+    - bat-extras.batwatch
+    - bat-extras.prettybat
+    - bat
+    - broot
+    - btop
+    - cheat
+    - curl
+    - diffutils
+    - direnv
+    - du-dust
+    - duf
+    - emacs
+    - emacsPackages.doom
+    - entr
+    - eza
+    - fd
+    - fzf
+    - gh
+    - git
+    - gnumake
+    - lazydocker
+    - lazygit
+    - libinput
+    - magic-wormhole
+    - mc
+    - mlocate
+    - mosh
+    - nano
+    - nanorc
+    - neofetch
+    - neovim
+    - nix-zsh-completions
+    - obs-studio
+    - ripgrep
+    - tldr
+    - topgrade
+    - tree
+    - unzip
+    - wget
+    - wl-clipboard-x11
+    - wl-clipboard
+    - zellij
+    - zi
+    - zip
+    - zoxide
+    - obsidian
+    - keybase-gui
+    - keybase
+    - kitty
+    - kitty-img
+    - telegram-desktop
+    - discord
+    - wire-desktop
+    - signal-desktop
+    - zoom-us
+    - emote
+    - input-leap
+    - helvum
+    - piper
+    - qmk
+    - vlc
+    - gimp
+    - libreoffice-qt
+    - p7zip
+    - vscode-fhs
+    - github-desktop
+    - wayland-utils
+    - vulkan-tools
+    - glxinfo
+    - clinfo
+    - hello
 paths:
     - /usr/local
     - /usr/bin
