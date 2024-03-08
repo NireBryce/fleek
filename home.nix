@@ -39,7 +39,8 @@
     pkgs.direnv
     pkgs.du-dust
     pkgs.duf
-    pkgs.emacs emacsPackages.doom
+    pkgs.emacs
+    pkgs.emacsPackages.doom
     pkgs.entr
     pkgs.eza
     pkgs.fd

@@ -40,7 +40,7 @@ packages: [
   direnv,               # manage per-directory environment variables
   du-dust,              # better du
   duf,                  # disk usage/free
-  emacs
+  emacs,
   emacsPackages.doom,   # doom emacs
   entr, 
   eza,                  # ls but better, exa fork
