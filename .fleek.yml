@@ -99,7 +99,6 @@ packages:
     - vulkan-tools
     - glxinfo
     - clinfo
-    - hello
 paths:
     - /usr/local
     - /usr/bin

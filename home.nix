@@ -98,7 +98,6 @@
     pkgs.vulkan-tools
     pkgs.glxinfo
     pkgs.clinfo
-    pkgs.hello
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
