@@ -356,9 +356,8 @@
   # _ZO_CMD_PREFIX="f"
   # ^ this is no longer needed ^ 
   
-  # Zoxide plugin
-    zi has'zoxide' wait lucid for \
-    z-shell/zsh-zoxide
+
+    eval "$(zoxide init zsh)"
 
   # Atuin
       export ATUIN_NOBIND="true"
