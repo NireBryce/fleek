@@ -315,7 +315,7 @@
     
     # # a different highlighter plugin, misleadingly named but cool colors 
         # zi light trapd00r/zsh-syntax-highlighting-filetypes                     # https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
-
+        # it gives "zsh_zle-highlight-buffer-p:4: permission denied error
   # Themes and colors
     zi ice depth=1; zi light romkatv/powerlevel10k                          # Powerlevel 10k - main theme
     zi light chrissicool/zsh-256color
