@@ -15,7 +15,7 @@
   "./config/sway".source = config/sway;
   # "./zsh-abbr".source = config/zsh-abbr;
   "./.talon".source = config/.talon;
-  "./.config/F-Sy-H".source = .config/zsh-f-s-highlight-themes;
+  "./.config/F-Sy-H".source = config/zsh-f-s-highlight-themes;
   };
 # TODO: python linkables
 }
