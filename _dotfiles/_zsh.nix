@@ -95,7 +95,7 @@
     enable = true;
     autocd = false;
     enableVteIntegration = true;
-    enableCompletion = true;
+    # enableCompletion = true;
     enableAutosuggestions = true;
     # history = {
       # path = "${config.xdg.configHome}/zsh/history";

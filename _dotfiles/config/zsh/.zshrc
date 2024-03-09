@@ -81,11 +81,11 @@
     bindkey '^[[1;5C' forward-word                                  #
     bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
     bindkey '^[[Z' undo                                             # Shift+tab undo last action
-    # Offer to install missing package if command is not found
-    if [[ -r /usr/share/zsh/functions/command-not-found.zsh ]]; then
-    source /usr/share/zsh/functions/command-not-found.zsh
-    export PKGFILE_PROMPT_INSTALL_MISSING=1
-    fi
+    # # Offer to install missing package if command is not found
+    # if [[ -r /usr/share/zsh/functions/command-not-found.zsh ]]; then
+    # source /usr/share/zsh/functions/command-not-found.zsh
+    # export PKGFILE_PROMPT_INSTALL_MISSING=1
+    # fi
 
     
     # Options from Prezto
@@ -251,7 +251,7 @@
   # END FRONTMATTER
   ###############################################################################################################################
 
-    fpath=($HOME/.nix-profile/share/zsh/site-functions $fpath)
+    # fpath=($HOME/.nix-profile/share/zsh/site-functions $fpath)
 
     source $HOME/.zi/plugins/RobSis---zsh-completion-generator/zsh-completion-generator.plugin.zsh
 
