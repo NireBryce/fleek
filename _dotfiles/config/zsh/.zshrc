@@ -312,7 +312,9 @@
   # syntax highlighting
     zi light z-shell/F-Sy-H
     # fast-theme z-shell
-    zi light trapd00r/zsh-syntax-highlighting-filetypes                     # https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
+    
+    # # a different highlighter plugin, misleadingly named but cool colors 
+        # zi light trapd00r/zsh-syntax-highlighting-filetypes                     # https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
 
   # Themes and colors
     zi ice depth=1; zi light romkatv/powerlevel10k                          # Powerlevel 10k - main theme
@@ -340,7 +342,6 @@
   # Completions
     zi load RobSis/zsh-completion-generator
     zi light 3v1n0/zsh-bash-completions-fallback                            # https://github.com/3v1n0/zsh-bash-completions-fallback
-    zi wait pack atload=+"zicompinit_fast; zicdreplay" for system-completions
     zi light clarketm/zsh-completions                                       # https://github.com/clarketm/zsh-completions
     # completions from --help
     source "${HOME}/.zi/plugins/RobSis---zsh-completion-generator/zsh-completion-generator.plugin.zsh" 
@@ -389,3 +390,6 @@
     alias cd="x";                                  # Empty oneletter for zoxide to not interfere with zi
     alias exa="eza --icons=always";
     alias ls="eza --icons=always --header --group-directories-first";
+
+    # zi wait pack atload=+"zicompinit_fast; zicdreplay" for system-completions  # doesn't work with nixos
+
