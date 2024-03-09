@@ -4,7 +4,10 @@
 
 
   # Notes:
-    # If you get permission denied errors, delete ~/.zcompdump and ~/.config/zsh/.zcompdump and run `zi update`
+    # If you get `zsh side` errors, delete ~/.zcompdump and ~/.config/zsh/.zcompdump and run `zi update`
+    # installing multiple highlighters causes "zsh_zle-highlight-buffer-p:4: permission denied error
+    # in this case it was trapd00r/zsh-syntax-highlighting-filetypes which highlights more than filetypes turns out
+
 
   home.shellAliases = { };  # zsh config breaks this, 
                             # aliases need to be added after .zshrc eval
