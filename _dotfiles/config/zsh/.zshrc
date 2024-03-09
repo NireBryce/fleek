@@ -266,8 +266,8 @@
     zi load Aloxaf/fzf-tab
     zi light alexiszamanidis/zsh-git-fzf                                  # https://github.com/alexiszamanidis/zsh-git-fzf
   # zoxide plugin
-    zi has'zoxide' wait lucid for \ 
-      z-shell/zsh-zoxide
+    zi has'zoxide' wait lucid for z-shell/zsh-zoxide
+
   # Plugins
   # Aliases
     zi light akash329d/zsh-alias-finder 
