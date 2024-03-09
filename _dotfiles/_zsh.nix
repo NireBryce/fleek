@@ -35,8 +35,8 @@
     # atuin.enableZshIntegration = true;
     direnv.enableZshIntegration = true;
     # fzf.enableZshIntegration = true;
-    # zellij.enableZshIntegration = true;
-    zoxide.enableZshIntegration = true; # done in zsh config
+    zellij.enableZshIntegration = true;
+    # zoxide.enableZshIntegration = true; # done in zsh config
   };
 
     programs.fzf = {
@@ -71,7 +71,6 @@
     zoxide
     atuin
     fzf
-    atuin
   ];
   
   home.file.".config/zsh-powerlevel10k/.p10k.zsh".source = config/zsh-powerlevel10k/.p10k.zsh;
