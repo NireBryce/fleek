@@ -36,7 +36,7 @@
     direnv.enableZshIntegration = true;
     # fzf.enableZshIntegration = true;
     # zellij.enableZshIntegration = true;
-    # zoxide.enableZshIntegration = true; # done in zsh config
+    zoxide.enableZshIntegration = true; # done in zsh config
   };
 
     programs.fzf = {
@@ -150,7 +150,7 @@
       
     # };   
     localVariables = {
-      # _ZO_CMD_PREFIX="f";
+      _ZO_CMD_PREFIX="x";
     };
     
 
