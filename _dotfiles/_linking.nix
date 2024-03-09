@@ -15,7 +15,8 @@
   "./.config/steamtinkerlaunch".source = config/steamtinkerlaunch;
   "./config/sway".source = config/sway;
   # "./zsh-abbr".source = config/zsh-abbr;
-  "./.config/zsh.d".source = config/zsh.d;
+  "./.talon".source = config/.talon;
+  "./.config/F-Sy-H".source = .config/zsh-f-s-highlight-themes;
   };
 # TODO: python linkables
 }

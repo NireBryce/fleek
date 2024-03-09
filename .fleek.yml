@@ -99,6 +99,7 @@ packages:
     - vulkan-tools
     - glxinfo
     - clinfo
+    - ggshield
 paths:
     - /usr/local
     - /usr/bin
