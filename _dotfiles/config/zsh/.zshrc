@@ -358,7 +358,6 @@
   # ^ this is no longer needed ^ 
   
 
-    eval "$(zoxide init zsh)"
 
   # Atuin
       export ATUIN_NOBIND="true"

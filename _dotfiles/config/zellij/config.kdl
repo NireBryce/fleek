@@ -3,10 +3,14 @@ keybinds {
     normal {
         // uncomment this and adjust key if using copy_on_select=false
         bind "Alt c" { Copy; }
-        bind "Ctrl Shift c" { Copy; }
+        bind "Alt C" { Copy; }
+        bind "Ctrl C" { Copy; }
     }
     locked {
         bind "Ctrl g" { SwitchToMode "Normal"; }
+        bind "Alt c" { Copy; }
+        bind "Alt C" { Copy; }
+        bind "Ctrl C" { Copy; }
     }
     resize {
         bind "Ctrl n" { SwitchToMode "Normal"; }
