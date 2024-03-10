@@ -99,6 +99,7 @@
     pkgs.glxinfo
     pkgs.clinfo
     pkgs.ggshield
+    pkgs.heroic
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
