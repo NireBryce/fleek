@@ -100,8 +100,6 @@
     pkgs.clinfo
     pkgs.ggshield
     pkgs.heroic
-    pkgs.csvkit
-    pkgs.python311Packages.sqlalchemy
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
