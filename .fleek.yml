@@ -102,6 +102,7 @@ packages:
     - ggshield
     - heroic
     - csvkit
+    - python311Packages.sqlalchemy
 paths:
     - /usr/local
     - /usr/bin
