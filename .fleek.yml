@@ -103,6 +103,7 @@ packages:
     - heroic
     - csvkit
     - python312Packages.pandas
+    - python311Packages.pandas
 paths:
     - /usr/local
     - /usr/bin
