@@ -102,6 +102,7 @@ packages:
     - ggshield
     - heroic
     - csvkit
+    - python312Packages.pandas
 paths:
     - /usr/local
     - /usr/bin
