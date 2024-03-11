@@ -101,6 +101,7 @@ packages:
     - clinfo
     - ggshield
     - heroic
+    - csvkit
 paths:
     - /usr/local
     - /usr/bin
