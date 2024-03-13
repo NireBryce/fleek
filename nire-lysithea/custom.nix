@@ -1,7 +1,7 @@
 { lib, config, pkgs, misc, ... }: 
 {
 	# FEEL FREE TO EDIT: This file is NOT managed by fleek.
-	modules = [
+	imports = [
 		../_common
     ../_specialized/_dev
     ../_specialized/_graphical
