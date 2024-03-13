@@ -24,6 +24,8 @@
     if [[ -r "${XDG_CONFIG_HOME:-${HOME}/.config}/zi/init.zsh" ]]; then
       source "${XDG_CONFIG_HOME:-${HOME}/.config}/zi/init.zsh" && zzinit
     fi
+  # MAGIC: idk why this is here, but it's needed to make zsh not print python=python every login
+    unset python
 
 # initial defaults from other sources (zsh4humans, prezto, manjaro)   
     source "${HOME}/.config/zsh/initial-bindings.zsh"
@@ -40,8 +42,6 @@
     WORDCHARS='*?[]~=&;!#$%^(){}<>';       # Don't consider certain characters part of the word
 
 # Plugins
-  # MAGIC: idk why this is here, but it's needed to make zsh not print python=python every login
-    unset python
   
   # zi plugins
     source $HOME/.config/zsh/zi-plugins.zsh
