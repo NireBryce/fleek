@@ -26,3 +26,54 @@
   bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
   bindkey '^[[Z' undo                                             # Shift+tab undo last action
   
+# prezto
+  # # Enable fish style features
+    # bind UP and DOWN arrow keys to history substring search
+    # bindkey "$terminfo[kcuu1]" history-substring-search-up
+    # bindkey "$terminfo[kcud1]" history-substring-search-down
+    # bindkey '^[[A' history-substring-search-up
+    # bindkey '^[[B' history-substring-search-down
+
+# zsh4humans
+    'bindkey' '-d'
+    'bindkey' '-e'
+
+    'bindkey' '-s' '^[OM'    '^M'
+    'bindkey' '-s' '^[Ok'    '+'
+    'bindkey' '-s' '^[Om'    '-'
+    'bindkey' '-s' '^[Oj'    '*'
+    'bindkey' '-s' '^[Oo'    '/'
+    'bindkey' '-s' '^[OX'    '='
+    'bindkey' '-s' '^[OH'    '^[[H'
+    'bindkey' '-s' '^[OF'    '^[[F'
+    'bindkey' '-s' '^[OA'    '^[[A'
+    'bindkey' '-s' '^[OB'    '^[[B'
+    'bindkey' '-s' '^[OD'    '^[[D'
+    'bindkey' '-s' '^[OC'    '^[[C'
+    'bindkey' '-s' '^[[1~'   '^[[H'
+    'bindkey' '-s' '^[[4~'   '^[[F'
+    'bindkey' '-s' '^[Od'    '^[[1;5D'
+    'bindkey' '-s' '^[Oc'    '^[[1;5C'
+    'bindkey' '-s' '^[^[[D'  '^[[1;3D'
+    'bindkey' '-s' '^[^[[C'  '^[[1;3C'
+    'bindkey' '-s' '^[[7~'   '^[[H'
+    'bindkey' '-s' '^[[8~'   '^[[F'
+    'bindkey' '-s' '^[[3\^'  '^[[3;5~'
+    'bindkey' '-s' '^[^[[3~' '^[[3;3~'
+    'bindkey' '-s' '^[[1;9D' '^[[1;3D'
+    'bindkey' '-s' '^[[1;9C' '^[[1;3C'
+    
+    'bindkey' '^[[H'    'beginning-of-line'
+    'bindkey' '^[[F'    'end-of-line'
+    'bindkey' '^[[3~'   'delete-char'
+    'bindkey' '^[[3;5~' 'kill-word'
+    'bindkey' '^[[3;3~' 'kill-word'
+    'bindkey' '^[k'     'backward-kill-line'
+    'bindkey' '^[K'     'backward-kill-line'
+    'bindkey' '^[j'     'kill-buffer'
+    'bindkey' '^[J'     'kill-buffer'
+    'bindkey' '^[/'     'redo'                          # Alt + /
+    'bindkey' '^[[1;3D' 'backward-word'
+    'bindkey' '^[[1;5D' 'backward-word'
+    'bindkey' '^[[1;3C' 'forward-word'
+    'bindkey' '^[[1;5C' 'forward-word'
