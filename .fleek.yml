@@ -102,6 +102,7 @@ packages:
     - ggshield
     - heroic
     - shellcheck
+    - shfmt
 paths:
     - /usr/local
     - /usr/bin
