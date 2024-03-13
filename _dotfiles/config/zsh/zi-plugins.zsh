@@ -2,7 +2,7 @@
 
     # completions from --help
     source "${HOME}/.zi/plugins/RobSis---zsh-completion-generator/zsh-completion-generator.plugin.zsh" 
-    
+
 # Install packages
   # fzf plugins
     zi load Aloxaf/fzf-tab
@@ -60,6 +60,7 @@
     zi light zpm-zsh/colorize                                               # color common commands
   
   # MAGIC: idk why this is here, but it's needed to make zsh not print python=python every login
+    # you might be able to remove this
     unset python
 
   # Completions
