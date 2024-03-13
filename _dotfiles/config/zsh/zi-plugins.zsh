@@ -55,7 +55,10 @@
     zi ice depth=1; zi light romkatv/powerlevel10k                          # Powerlevel 10k - main theme
     zi light chrissicool/zsh-256color
     zi light zpm-zsh/colorize                                               # color common commands
-
+  
+  # MAGIC: idk why this is here, but it's needed to make zsh not print python=python every login
+    unset python
+    
   # Completions
     zi load RobSis/zsh-completion-generator
     zi light 3v1n0/zsh-bash-completions-fallback                            # https://github.com/3v1n0/zsh-bash-completions-fallback
