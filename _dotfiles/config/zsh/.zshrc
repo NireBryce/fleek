@@ -40,6 +40,9 @@
     WORDCHARS='*?[]~=&;!#$%^(){}<>';       # Don't consider certain characters part of the word
 
 # Plugins
+  # MAGIC: idk why this is here, but it's needed to make zsh not print python=python every login
+    unset python
+  
   # zi plugins
     source $HOME/.config/zsh/zi-plugins.zsh
   
@@ -54,8 +57,6 @@
     
 
 # compinit and cleanup
-    # MAGIC: idk why this is here, but it's needed to make python work on my nixos install
-      unset python
     zicompinit                                                              # <- https://wiki.zshell.dev/docs/guides/commands
     autoload -Uz compinit
     compinit
