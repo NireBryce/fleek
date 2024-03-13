@@ -2,12 +2,12 @@
 {
 	# FEEL FREE TO EDIT: This file is NOT managed by fleek.
 	modules = [
-		# ../_specialized/_gaming
+		../_common
+    ../_specialized/_dev
     ../_specialized/_graphical
 		../_specialized/_wm/_kde.nix
     ../_specialized/_sound
-    ../_specialized/_dev
-		
+
 		# machine packages
     ./_packages.nix
 	];
