@@ -7,8 +7,6 @@
 		../_specialized/_wm/_kde.nix
     ../_specialized/_sound
 
-		# machine packages
-    ./_packages.nix
 	];
 }
 
