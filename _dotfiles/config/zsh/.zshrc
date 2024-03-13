@@ -29,63 +29,11 @@
   # 	abbr -g "pamac-refresh-mirrors"="pacman-mirrors -f 5 && sudo pacman -Syuu";
   # 	abbr -g "_regex-extract_url"="'(https?|ftp|file)://[^\s/\$.?#].[^\s]*'";
   
-##############################################################################################################################
-# STOLEN FROM MANJARO DEFAULT CONFIG
-############################################
-    # zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
-    
-    # Options section
-    setopt correct                                                  # Auto correct mistakes
-    setopt nocaseglob                                               # Case insensitive globbing
-    setopt rcexpandparam                                            # Array expension with parameters
-    setopt nocheckjobs                                              # Don't warn about running processes when exiting
-    setopt numericglobsort                                          # Sort filenames numerically when it makes sense
-    setopt nobeep                                                   # No beep
-    setopt appendhistory                                            # Immediately append history instead of overwriting
-    setopt histignorealldups                                        # If a new command is a duplicate, remove the older one
-    setopt autocd                                                   # if only directory path is entered, cd there.
-    setopt inc_append_history                                       # save commands are added to the history immediately, otherwise only when shell exits.
-    setopt histignorespace                                          # Don't save commands that start with space
-    # disabled after the fact:
-    # setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
-    zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'   # Case insensitive tab completion
-    zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"         # Colored completion (different colors for dirs/files/etc)
-    zstyle ':completion:*' rehash true                              # automatically find new executables in path 
-    # Speed up completions
-    zstyle ':completion:*' accept-exact '*(N)'
-    zstyle ':completion:*' use-cache on
-    zstyle ':completion:*' cache-path ~/.zsh/cache
-    # Keybindings section
-    bindkey -e
-    bindkey '^[[7~' beginning-of-line                               # Home key
-    bindkey '^[[H' beginning-of-line                                # Home key
-    if [[ "${terminfo[khome]}" != "" ]]; then
-    bindkey "${terminfo[khome]}" beginning-of-line                # [Home] - Go to beginning of line
-    fi
-    bindkey '^[[8~' end-of-line                                     # End key
-    bindkey '^[[F' end-of-line                                      # End key
-    if [[ "${terminfo[kend]}" != "" ]]; then
-    bindkey "${terminfo[kend]}" end-of-line                       # [End] - Go to end of line
-    fi
-    bindkey '^[[2~' overwrite-mode                                  # Insert key
-    bindkey '^[[3~' delete-char                                     # Delete key
-    bindkey '^[[C'  forward-char                                    # Right key
-    bindkey '^[[D'  backward-char                                   # Left key
-    bindkey '^[[5~' history-beginning-search-backward               # Page up key
-    bindkey '^[[6~' history-beginning-search-forward                # Page down key
 
-    # Navigate words with ctrl+arrow keys
-    bindkey '^[Oc' forward-word                                     #
-    bindkey '^[Od' backward-word                                    #
-    bindkey '^[[1;5D' backward-word                                 #
-    bindkey '^[[1;5C' forward-word                                  #
-    bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
-    bindkey '^[[Z' undo                                             # Shift+tab undo last action
-    # # Offer to install missing package if command is not found
-    # if [[ -r /usr/share/zsh/functions/command-not-found.zsh ]]; then
-    # source /usr/share/zsh/functions/command-not-found.zsh
-    # export PKGFILE_PROMPT_INSTALL_MISSING=1
-    # fi
+
+    source ${HOME}/.config/zsh/initial-bindings.zsh
+    source ${HOME}/.config/zsh/initial-setopts.zsh
+    source ${HOME}/.config/zsh/initial-zstyle.zsh
 
     
     # Options from Prezto

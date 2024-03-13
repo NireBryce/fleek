@@ -101,6 +101,7 @@ packages:
     - clinfo
     - ggshield
     - heroic
+    - shellcheck
 paths:
     - /usr/local
     - /usr/bin
