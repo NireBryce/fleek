@@ -1,5 +1,8 @@
 # ZI PACKAGE/PLUGIN MANAGEMENT
 
+    # completions from --help
+    source "${HOME}/.zi/plugins/RobSis---zsh-completion-generator/zsh-completion-generator.plugin.zsh" 
+    
 # Install packages
   # fzf plugins
     zi load Aloxaf/fzf-tab
@@ -58,12 +61,10 @@
   
   # MAGIC: idk why this is here, but it's needed to make zsh not print python=python every login
     unset python
-    
+
   # Completions
     zi load RobSis/zsh-completion-generator
     zi light 3v1n0/zsh-bash-completions-fallback                            # https://github.com/3v1n0/zsh-bash-completions-fallback
     zi light clarketm/zsh-completions                                       # https://github.com/clarketm/zsh-completions
-    # completions from --help
-    source "${HOME}/.zi/plugins/RobSis---zsh-completion-generator/zsh-completion-generator.plugin.zsh" 
 
 
