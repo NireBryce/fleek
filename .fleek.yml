@@ -103,6 +103,7 @@ packages:
     - heroic
     - shellcheck
     - shfmt
+    - lutris
 paths:
     - /usr/local
     - /usr/bin
