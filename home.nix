@@ -104,6 +104,7 @@
     pkgs.shfmt
     pkgs.lutris
     pkgs.protonup-qt
+    pkgs.wineWowPackages.stable
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

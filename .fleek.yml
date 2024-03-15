@@ -105,6 +105,7 @@ packages:
     - shfmt
     - lutris
     - protonup-qt
+    - wineWowPackages.stable
 paths:
     - /usr/local
     - /usr/bin
