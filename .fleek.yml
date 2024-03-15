@@ -104,6 +104,7 @@ packages:
     - shellcheck
     - shfmt
     - lutris
+    - protonup-qt
 paths:
     - /usr/local
     - /usr/bin
