@@ -106,6 +106,7 @@ packages:
     - lutris
     - protonup-qt
     - wineWowPackages.waylandFull
+    - wine
 paths:
     - /usr/local
     - /usr/bin
