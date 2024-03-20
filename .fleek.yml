@@ -105,7 +105,7 @@ packages:
     - shfmt
     - lutris
     - protonup-qt
-    - wineWowPackages.waylandFull
+    # - wineWowPackages.waylandFull
     - wine
 paths:
     - /usr/local

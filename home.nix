@@ -104,7 +104,6 @@
     pkgs.shfmt
     pkgs.lutris
     pkgs.protonup-qt
-    pkgs.wineWowPackages.waylandFull
     pkgs.wine
     # Fleek Bling
     pkgs.git
