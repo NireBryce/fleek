@@ -108,6 +108,7 @@ packages:
     - wineWowPackages.waylandFull
     - cmus
     - jc
+    - helix
 paths:
     - /usr/local
     - /usr/bin
