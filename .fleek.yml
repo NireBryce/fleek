@@ -106,6 +106,7 @@ packages:
     - lutris
     - protonup-qt
     - wineWowPackages.waylandFull
+    - cmus
 paths:
     - /usr/local
     - /usr/bin
