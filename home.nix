@@ -106,6 +106,7 @@
     pkgs.protonup-qt
     pkgs.wineWowPackages.waylandFull
     pkgs.cmus
+    pkgs.jc
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

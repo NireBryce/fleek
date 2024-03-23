@@ -107,6 +107,7 @@ packages:
     - protonup-qt
     - wineWowPackages.waylandFull
     - cmus
+    - jc
 paths:
     - /usr/local
     - /usr/bin
