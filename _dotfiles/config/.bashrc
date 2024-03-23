@@ -136,8 +136,8 @@ ex ()
   fi
 }
 
-if [[ ! $PS1 =~ 133 ]] ; then
-    source ~/utilities/bash_mouse_enable/bash-preexec.sh
-    source ~/utilities/bash_mouse_enable/shell-integration.bash
-fi
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# if [[ ! $PS1 =~ 133 ]] ; then
+#     source ~/utilities/bash_mouse_enable/bash-preexec.sh
+#     source ~/utilities/bash_mouse_enable/shell-integration.bash
+# fi
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
