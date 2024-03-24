@@ -108,6 +108,7 @@
     pkgs.cmus
     pkgs.jc
     pkgs.helix
+    pkgs.lm_sensors
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
