@@ -100,14 +100,6 @@
     pkgs.clinfo
     pkgs.ggshield
     pkgs.heroic
-    pkgs.shellcheck
-    pkgs.shfmt
-    pkgs.lutris
-    pkgs.protonup-qt
-    pkgs.wineWowPackages.waylandFull
-    pkgs.cmus
-    pkgs.jc
-    pkgs.helix
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
