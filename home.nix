@@ -51,7 +51,7 @@
     pkgs.lazydocker
     pkgs.lazygit
     pkgs.libinput
-    pkgs.magic-wormhole
+    pkgs.magic-wormhole-rs
     pkgs.mc
     pkgs.mlocate
     pkgs.mosh
