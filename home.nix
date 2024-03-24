@@ -98,7 +98,6 @@
     pkgs.vulkan-tools
     pkgs.glxinfo
     pkgs.clinfo
-    pkgs.ggshield
     pkgs.heroic
     pkgs.shellcheck
     pkgs.shfmt

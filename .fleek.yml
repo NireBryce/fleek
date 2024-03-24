@@ -99,7 +99,6 @@ packages:
     - vulkan-tools
     - glxinfo
     - clinfo
-    - ggshield
     - heroic
     - shellcheck
     - shfmt
