@@ -52,7 +52,7 @@ packages:
     - lazydocker
     - lazygit
     - libinput
-    - magic-wormhole
+    - magic-wormhole-rs
     - mc
     - mlocate
     - mosh
