@@ -7,13 +7,11 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
     # Home manager
-    home-manager.url = "github:nix-community/home-manager";
-      # home-manager.url = "https://flakehub.com/f/nix-community/home-manager/0.1.tar.gz";
+    home-manager.url = "https://flakehub.com/f/nix-community/home-manager/0.1.tar.gz";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     # Fleek
-    fleek.url = "github:ublue-os/fleek";
-      # fleek.url = "https://flakehub.com/f/ublue-os/fleek/*.tar.gz";
+    fleek.url = "https://flakehub.com/f/ublue-os/fleek/*.tar.gz";
 
     # Overlays
     
