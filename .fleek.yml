@@ -108,7 +108,7 @@ packages:
     - cmus
     - jc
     - helix
-    # - lm_sensors
+    - lm_sensors
 paths:
     - /usr/local
     - /usr/bin
