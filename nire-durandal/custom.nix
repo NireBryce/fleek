@@ -4,7 +4,6 @@
 	imports = [
 		# We split off configs that we might have to remove from specific machines
 		# TODO: clean this up later
-		../_common
 		../_dotfiles
 		../_specialized/_gaming
 		../_specialized/_wm/_kde.nix
