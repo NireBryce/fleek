@@ -3,7 +3,6 @@
  home.sessionPath = [ 
     "/usr/local"
     "/usr/bin"
-    "/nix/var/nix/profiles/default/bin"
     "$HOME/bin"
     "$HOME/.local/bin"
     "$HOME/.nix-profile/bin"
