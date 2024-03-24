@@ -108,6 +108,7 @@
     pkgs.jc
     pkgs.helix
     pkgs.lm_sensors
+    pkgs.libsForQt5.polonium
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

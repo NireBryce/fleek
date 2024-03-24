@@ -109,6 +109,7 @@ packages:
     - jc
     - helix
     - lm_sensors
+    - libsForQt5.polonium
 paths:
     - /usr/local
     - /usr/bin
