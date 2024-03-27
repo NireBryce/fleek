@@ -110,6 +110,7 @@ packages:
     - helix
     - lm_sensors
     - libsForQt5.polonium
+    - etcher
 paths:
     - /usr/local
     - /usr/bin
