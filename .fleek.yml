@@ -111,6 +111,7 @@ packages:
     - lm_sensors
     - libsForQt5.polonium
     - etcher
+    - cinny-desktop
 paths:
     - /usr/local
     - /usr/bin
