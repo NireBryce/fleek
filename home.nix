@@ -109,7 +109,6 @@
     pkgs.helix
     pkgs.lm_sensors
     pkgs.libsForQt5.polonium
-    pkgs.etcher
     pkgs.cinny-desktop
     # Fleek Bling
     pkgs.git
